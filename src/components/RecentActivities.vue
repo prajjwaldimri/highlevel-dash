@@ -15,7 +15,7 @@
         <li class="hl_recent-activities--item --notification">
           <div class="avatar --sm">
             <div class="avatar_img">
-              <img src="./img/img-avatar-sample4.png" alt="Avatar Name" />
+              <img src="/img/img-avatar-sample4.png" alt="Avatar Name" />
             </div>
           </div>
           <p><strong>Henry J.</strong> sent a Review Request to Amanda Nunes.</p>
@@ -61,7 +61,7 @@
         <li class="hl_recent-activities--item">
           <div class="avatar --sm">
             <div class="avatar_img">
-              <img src="./img/img-avatar-sample2.png" alt="Avatar Name" />
+              <img src="/img/img-avatar-sample2.png" alt="Avatar Name" />
             </div>
           </div>
           <p><strong>Samantha Irving</strong> sent a Review Request to Amanda Nunes.</p>
@@ -71,7 +71,7 @@
         <li class="hl_recent-activities--item">
           <div class="avatar --sm">
             <div class="avatar_img">
-              <img src="./img/img-avatar-sample3.png" alt="Avatar Name" />
+              <img src="/img/img-avatar-sample3.png" alt="Avatar Name" />
             </div>
           </div>
           <p><strong>Cecelia Atkins</strong> sent a Review Request to Amanda Nunes.</p>

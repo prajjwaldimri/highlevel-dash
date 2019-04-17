@@ -6,7 +6,7 @@
           <span aria-hidden="true">&times;</span>
         </button>
         <div class="modal-body">
-          <img src="./img/img-link-review-copied.png" />
+          <img src="/img/img-link-review-copied.png" />
           <h4>Link copied to clipboard!</h4>
           <p>www.somekindoflink.com/mycompanyname/213213</p>
         </div>
