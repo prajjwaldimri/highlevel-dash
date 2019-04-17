@@ -1,6 +1,9 @@
 <template>
   <section class="hl_wrapper nav-shrink d-flex">
-    <section class="hl_wrapper--inner page-creator" id="page-creator">
+    <section
+      class="hl_wrapper--inner page-creator"
+      id="page-creator"
+    >
       <section class="hl_page-creator--main">
         <div class="hl_page-creator--menu">
           <div class="menu--left">
@@ -45,7 +48,10 @@
               >
                 <i class="fas fa-plug"></i>
               </button>
-              <div class="dropdown" id="settings-group">
+              <div
+                class="dropdown"
+                id="settings-group"
+              >
                 <button
                   type="button"
                   class="btn btn-light btn-sm dropdown-toggle"
@@ -60,13 +66,41 @@
                 </button>
                 <div class="dropdown-menu">
                   <div class="nav">
-                    <a class="dropdown-item" data-toggle="tab" href="#integrations">Integrations</a>
-                    <a class="dropdown-item" data-toggle="tab" href="#seo">SEO Meta Data</a>
-                    <a class="dropdown-item" data-toggle="tab" href="#tracking">Tracking Code</a>
-                    <a class="dropdown-item" data-toggle="tab" href="#css">Custom CSS</a>
-                    <a class="dropdown-item" data-toggle="tab" href="#background">Background</a>
-                    <a class="dropdown-item" data-toggle="tab" href="#typography">Typography</a>
-                    <a class="dropdown-item" data-toggle="tab" href="#general">General</a>
+                    <a
+                      class="dropdown-item"
+                      data-toggle="tab"
+                      href="#integrations"
+                    >Integrations</a>
+                    <a
+                      class="dropdown-item"
+                      data-toggle="tab"
+                      href="#seo"
+                    >SEO Meta Data</a>
+                    <a
+                      class="dropdown-item"
+                      data-toggle="tab"
+                      href="#tracking"
+                    >Tracking Code</a>
+                    <a
+                      class="dropdown-item"
+                      data-toggle="tab"
+                      href="#css"
+                    >Custom CSS</a>
+                    <a
+                      class="dropdown-item"
+                      data-toggle="tab"
+                      href="#background"
+                    >Background</a>
+                    <a
+                      class="dropdown-item"
+                      data-toggle="tab"
+                      href="#typography"
+                    >Typography</a>
+                    <a
+                      class="dropdown-item"
+                      data-toggle="tab"
+                      href="#general"
+                    >General</a>
                   </div>
                 </div>
               </div>
@@ -84,8 +118,14 @@
                   <i class="fas fa-external-link-alt"></i><span class="btn-text">Pop up</span>
                 </button>
                 <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">Show Popup</a>
-                  <a class="dropdown-item" href="#">Edit Settings</a>
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                  >Show Popup</a>
+                  <a
+                    class="dropdown-item"
+                    href="#"
+                  >Edit Settings</a>
                 </div>
               </div>
               <button
@@ -111,7 +151,10 @@
           </div>
           <div class="menu--right">
             <div class="btn-group">
-              <div class="dropdown" id="section-group">
+              <div
+                class="dropdown"
+                id="section-group"
+              >
                 <button
                   type="button"
                   class="btn btn-light btn-sm dropdown-toggle"
@@ -126,12 +169,23 @@
                 </button>
                 <div class="dropdown-menu">
                   <div class="nav">
-                    <a class="dropdown-item" data-toggle="tab" href="#add-section">Add Section</a>
-                    <a class="dropdown-item" data-toggle="tab" href="#manage-sections">Manage</a>
+                    <a
+                      class="dropdown-item"
+                      data-toggle="tab"
+                      href="#add-section"
+                    >Add Section</a>
+                    <a
+                      class="dropdown-item"
+                      data-toggle="tab"
+                      href="#manage-sections"
+                    >Manage</a>
                   </div>
                 </div>
               </div>
-              <div class="dropdown" id="row-group">
+              <div
+                class="dropdown"
+                id="row-group"
+              >
                 <button
                   type="button"
                   class="btn btn-light btn-sm dropdown-toggle"
@@ -146,8 +200,16 @@
                 </button>
                 <div class="dropdown-menu">
                   <div class="nav">
-                    <a class="dropdown-item" data-toggle="tab" href="#add-row">Add Row</a>
-                    <a class="dropdown-item" data-toggle="tab" href="#manage-rows">Manage</a>
+                    <a
+                      class="dropdown-item"
+                      data-toggle="tab"
+                      href="#add-row"
+                    >Add Row</a>
+                    <a
+                      class="dropdown-item"
+                      data-toggle="tab"
+                      href="#manage-rows"
+                    >Manage</a>
                   </div>
                 </div>
               </div>
@@ -161,7 +223,10 @@
               >
                 <i class="fas fa-columns"></i><span class="btn-text">Columns</span>
               </button>
-              <div class="dropdown" id="element-group">
+              <div
+                class="dropdown"
+                id="element-group"
+              >
                 <button
                   type="button"
                   class="btn btn-light btn-sm dropdown-toggle"
@@ -176,8 +241,16 @@
                 </button>
                 <div class="dropdown-menu">
                   <div class="nav">
-                    <a class="dropdown-item" data-toggle="tab" href="#add-element">Add Element</a>
-                    <a class="dropdown-item" data-toggle="tab" href="#manage-elements">Manage</a>
+                    <a
+                      class="dropdown-item"
+                      data-toggle="tab"
+                      href="#add-element"
+                    >Add Element</a>
+                    <a
+                      class="dropdown-item"
+                      data-toggle="tab"
+                      href="#manage-elements"
+                    >Manage</a>
                   </div>
                 </div>
               </div>
@@ -209,26 +282,38 @@
           <section class="hl_page-creator--section">
             <div class="hl_page-creator--actions">
               <div class="move-actions">
-                <span data-tooltip="tooltip" data-placement="right" title="Up"
-                  ><i class="icon icon-arrow-up-2"></i
-                ></span>
-                <span data-tooltip="tooltip" data-placement="right" title="Down"
-                  ><i class="icon icon-arrow-down-2"></i
-                ></span>
+                <span
+                  data-tooltip="tooltip"
+                  data-placement="right"
+                  title="Up"
+                ><i class="icon icon-arrow-up-2"></i></span>
+                <span
+                  data-tooltip="tooltip"
+                  data-placement="right"
+                  title="Down"
+                ><i class="icon icon-arrow-down-2"></i></span>
               </div>
               <div class="more-actions">
-                <span data-tooltip="tooltip" data-placement="left" title="Settings"
-                  ><i class="fas fa-cog"></i
-                ></span>
-                <span data-tooltip="tooltip" data-placement="left" title="Clone"
-                  ><i class="far fa-eye"></i
-                ></span>
-                <span data-tooltip="tooltip" data-placement="left" title="Save"
-                  ><i class="far fa-copy"></i
-                ></span>
-                <span data-tooltip="tooltip" data-placement="left" title="Delete"
-                  ><i class="far fa-trash-alt"></i
-                ></span>
+                <span
+                  data-tooltip="tooltip"
+                  data-placement="left"
+                  title="Settings"
+                ><i class="fas fa-cog"></i></span>
+                <span
+                  data-tooltip="tooltip"
+                  data-placement="left"
+                  title="Clone"
+                ><i class="far fa-eye"></i></span>
+                <span
+                  data-tooltip="tooltip"
+                  data-placement="left"
+                  title="Save"
+                ><i class="far fa-copy"></i></span>
+                <span
+                  data-tooltip="tooltip"
+                  data-placement="left"
+                  title="Delete"
+                ><i class="far fa-trash-alt"></i></span>
               </div>
             </div>
             <span
@@ -236,9 +321,11 @@
               data-tooltip="tooltip"
               data-placement="bottom"
               title="Add New Section"
-              ><i class="icon icon-plus"></i
-            ></span>
-            <div href="#" class="new-row-blank">
+            ><i class="icon icon-plus"></i></span>
+            <div
+              href="#"
+              class="new-row-blank"
+            >
               <span class="btn btn-light5 btn-slim">Add New Row</span>
             </div>
           </section>
@@ -249,26 +336,38 @@
           >
             <div class="hl_page-creator--actions">
               <div class="move-actions">
-                <span data-tooltip="tooltip" data-placement="right" title="Up"
-                  ><i class="icon icon-arrow-up-2"></i
-                ></span>
-                <span data-tooltip="tooltip" data-placement="right" title="Down"
-                  ><i class="icon icon-arrow-down-2"></i
-                ></span>
+                <span
+                  data-tooltip="tooltip"
+                  data-placement="right"
+                  title="Up"
+                ><i class="icon icon-arrow-up-2"></i></span>
+                <span
+                  data-tooltip="tooltip"
+                  data-placement="right"
+                  title="Down"
+                ><i class="icon icon-arrow-down-2"></i></span>
               </div>
               <div class="more-actions">
-                <span data-tooltip="tooltip" data-placement="left" title="Settings"
-                  ><i class="fas fa-cog"></i
-                ></span>
-                <span data-tooltip="tooltip" data-placement="left" title="Clone"
-                  ><i class="far fa-eye"></i
-                ></span>
-                <span data-tooltip="tooltip" data-placement="left" title="Save"
-                  ><i class="far fa-copy"></i
-                ></span>
-                <span data-tooltip="tooltip" data-placement="left" title="Delete"
-                  ><i class="far fa-trash-alt"></i
-                ></span>
+                <span
+                  data-tooltip="tooltip"
+                  data-placement="left"
+                  title="Settings"
+                ><i class="fas fa-cog"></i></span>
+                <span
+                  data-tooltip="tooltip"
+                  data-placement="left"
+                  title="Clone"
+                ><i class="far fa-eye"></i></span>
+                <span
+                  data-tooltip="tooltip"
+                  data-placement="left"
+                  title="Save"
+                ><i class="far fa-copy"></i></span>
+                <span
+                  data-tooltip="tooltip"
+                  data-placement="left"
+                  title="Delete"
+                ><i class="far fa-trash-alt"></i></span>
               </div>
             </div>
             <span
@@ -276,31 +375,42 @@
               data-tooltip="tooltip"
               data-placement="bottom"
               title="Add New Section"
-              ><i class="icon icon-plus"></i
-            ></span>
+            ><i class="icon icon-plus"></i></span>
             <div class="hl_page-creator--row">
               <div class="hl_page-creator--actions">
                 <div class="move-actions">
-                  <span data-tooltip="tooltip" data-placement="top" title="Up"
-                    ><i class="icon icon-arrow-up-2"></i
-                  ></span>
-                  <span data-tooltip="tooltip" data-placement="top" title="Down"
-                    ><i class="icon icon-arrow-down-2"></i
-                  ></span>
+                  <span
+                    data-tooltip="tooltip"
+                    data-placement="top"
+                    title="Up"
+                  ><i class="icon icon-arrow-up-2"></i></span>
+                  <span
+                    data-tooltip="tooltip"
+                    data-placement="top"
+                    title="Down"
+                  ><i class="icon icon-arrow-down-2"></i></span>
                 </div>
                 <div class="more-actions">
-                  <span data-tooltip="tooltip" data-placement="top" title="Settings"
-                    ><i class="fas fa-cog"></i
-                  ></span>
-                  <span data-tooltip="tooltip" data-placement="top" title="Clone"
-                    ><i class="far fa-eye"></i
-                  ></span>
-                  <span data-tooltip="tooltip" data-placement="top" title="Save"
-                    ><i class="far fa-copy"></i
-                  ></span>
-                  <span data-tooltip="tooltip" data-placement="top" title="Delete"
-                    ><i class="far fa-trash-alt"></i
-                  ></span>
+                  <span
+                    data-tooltip="tooltip"
+                    data-placement="top"
+                    title="Settings"
+                  ><i class="fas fa-cog"></i></span>
+                  <span
+                    data-tooltip="tooltip"
+                    data-placement="top"
+                    title="Clone"
+                  ><i class="far fa-eye"></i></span>
+                  <span
+                    data-tooltip="tooltip"
+                    data-placement="top"
+                    title="Save"
+                  ><i class="far fa-copy"></i></span>
+                  <span
+                    data-tooltip="tooltip"
+                    data-placement="top"
+                    title="Delete"
+                  ><i class="far fa-trash-alt"></i></span>
                 </div>
               </div>
               <span
@@ -308,24 +418,31 @@
                 data-tooltip="tooltip"
                 data-placement="bottom"
                 title="Add New Row"
-                ><i class="icon icon-plus"></i
-              ></span>
+              ><i class="icon icon-plus"></i></span>
               <div class="hl_page-creator--column">
                 <div class="hl_page-creator--element">
                   <div class="hl_page-creator--actions">
                     <div class="more-actions">
-                      <span data-tooltip="tooltip" data-placement="top" title="Move"
-                        ><i class="fas fa-arrows-alt"></i
-                      ></span>
-                      <span data-tooltip="tooltip" data-placement="top" title="Clone"
-                        ><i class="far fa-eye"></i
-                      ></span>
-                      <span data-tooltip="tooltip" data-placement="top" title="Save"
-                        ><i class="far fa-copy"></i
-                      ></span>
-                      <span data-tooltip="tooltip" data-placement="top" title="Delete"
-                        ><i class="far fa-trash-alt"></i
-                      ></span>
+                      <span
+                        data-tooltip="tooltip"
+                        data-placement="top"
+                        title="Move"
+                      ><i class="fas fa-arrows-alt"></i></span>
+                      <span
+                        data-tooltip="tooltip"
+                        data-placement="top"
+                        title="Clone"
+                      ><i class="far fa-eye"></i></span>
+                      <span
+                        data-tooltip="tooltip"
+                        data-placement="top"
+                        title="Save"
+                      ><i class="far fa-copy"></i></span>
+                      <span
+                        data-tooltip="tooltip"
+                        data-placement="top"
+                        title="Delete"
+                      ><i class="far fa-trash-alt"></i></span>
                     </div>
                   </div>
                   <span
@@ -333,8 +450,7 @@
                     data-tooltip="tooltip"
                     data-placement="bottom"
                     title="Add New Element"
-                    ><i class="icon icon-plus"></i
-                  ></span>
+                  ><i class="icon icon-plus"></i></span>
                   <div class="element-container">
                     <h1>Heading Text Goes Here</h1>
                   </div>
@@ -342,18 +458,26 @@
                 <div class="hl_page-creator--element">
                   <div class="hl_page-creator--actions">
                     <div class="more-actions">
-                      <span data-tooltip="tooltip" data-placement="top" title="Move"
-                        ><i class="fas fa-arrows-alt"></i
-                      ></span>
-                      <span data-tooltip="tooltip" data-placement="top" title="Clone"
-                        ><i class="far fa-eye"></i
-                      ></span>
-                      <span data-tooltip="tooltip" data-placement="top" title="Save"
-                        ><i class="far fa-copy"></i
-                      ></span>
-                      <span data-tooltip="tooltip" data-placement="top" title="Delete"
-                        ><i class="far fa-trash-alt"></i
-                      ></span>
+                      <span
+                        data-tooltip="tooltip"
+                        data-placement="top"
+                        title="Move"
+                      ><i class="fas fa-arrows-alt"></i></span>
+                      <span
+                        data-tooltip="tooltip"
+                        data-placement="top"
+                        title="Clone"
+                      ><i class="far fa-eye"></i></span>
+                      <span
+                        data-tooltip="tooltip"
+                        data-placement="top"
+                        title="Save"
+                      ><i class="far fa-copy"></i></span>
+                      <span
+                        data-tooltip="tooltip"
+                        data-placement="top"
+                        title="Delete"
+                      ><i class="far fa-trash-alt"></i></span>
                     </div>
                   </div>
                   <span
@@ -361,9 +485,11 @@
                     data-tooltip="tooltip"
                     data-placement="bottom"
                     title="Add New Element"
-                    ><i class="icon icon-plus"></i
-                  ></span>
-                  <div class="element-container" style="max-width: 700px; margin: 0 auto;">
+                  ><i class="icon icon-plus"></i></span>
+                  <div
+                    class="element-container"
+                    style="max-width: 700px; margin: 0 auto;"
+                  >
                     <p>
                       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem architecto
                       quas mollitia voluptates iure consequuntur totam numquam quasi quaerat, iste,
@@ -380,26 +506,38 @@
           <section class="hl_page-creator--section">
             <div class="hl_page-creator--actions">
               <div class="move-actions">
-                <span data-tooltip="tooltip" data-placement="right" title="Up"
-                  ><i class="icon icon-arrow-up-2"></i
-                ></span>
-                <span data-tooltip="tooltip" data-placement="right" title="Down"
-                  ><i class="icon icon-arrow-down-2"></i
-                ></span>
+                <span
+                  data-tooltip="tooltip"
+                  data-placement="right"
+                  title="Up"
+                ><i class="icon icon-arrow-up-2"></i></span>
+                <span
+                  data-tooltip="tooltip"
+                  data-placement="right"
+                  title="Down"
+                ><i class="icon icon-arrow-down-2"></i></span>
               </div>
               <div class="more-actions">
-                <span data-tooltip="tooltip" data-placement="left" title="Settings"
-                  ><i class="fas fa-cog"></i
-                ></span>
-                <span data-tooltip="tooltip" data-placement="left" title="Clone"
-                  ><i class="far fa-eye"></i
-                ></span>
-                <span data-tooltip="tooltip" data-placement="left" title="Save"
-                  ><i class="far fa-copy"></i
-                ></span>
-                <span data-tooltip="tooltip" data-placement="left" title="Delete"
-                  ><i class="far fa-trash-alt"></i
-                ></span>
+                <span
+                  data-tooltip="tooltip"
+                  data-placement="left"
+                  title="Settings"
+                ><i class="fas fa-cog"></i></span>
+                <span
+                  data-tooltip="tooltip"
+                  data-placement="left"
+                  title="Clone"
+                ><i class="far fa-eye"></i></span>
+                <span
+                  data-tooltip="tooltip"
+                  data-placement="left"
+                  title="Save"
+                ><i class="far fa-copy"></i></span>
+                <span
+                  data-tooltip="tooltip"
+                  data-placement="left"
+                  title="Delete"
+                ><i class="far fa-trash-alt"></i></span>
               </div>
             </div>
             <span
@@ -407,31 +545,42 @@
               data-tooltip="tooltip"
               data-placement="bottom"
               title="Add New Section"
-              ><i class="icon icon-plus"></i
-            ></span>
+            ><i class="icon icon-plus"></i></span>
             <div class="hl_page-creator--row">
               <div class="hl_page-creator--actions">
                 <div class="move-actions">
-                  <span data-tooltip="tooltip" data-placement="top" title="Up"
-                    ><i class="icon icon-arrow-up-2"></i
-                  ></span>
-                  <span data-tooltip="tooltip" data-placement="top" title="Down"
-                    ><i class="icon icon-arrow-down-2"></i
-                  ></span>
+                  <span
+                    data-tooltip="tooltip"
+                    data-placement="top"
+                    title="Up"
+                  ><i class="icon icon-arrow-up-2"></i></span>
+                  <span
+                    data-tooltip="tooltip"
+                    data-placement="top"
+                    title="Down"
+                  ><i class="icon icon-arrow-down-2"></i></span>
                 </div>
                 <div class="more-actions">
-                  <span data-tooltip="tooltip" data-placement="top" title="Settings"
-                    ><i class="fas fa-cog"></i
-                  ></span>
-                  <span data-tooltip="tooltip" data-placement="top" title="Clone"
-                    ><i class="far fa-eye"></i
-                  ></span>
-                  <span data-tooltip="tooltip" data-placement="top" title="Save"
-                    ><i class="far fa-copy"></i
-                  ></span>
-                  <span data-tooltip="tooltip" data-placement="top" title="Delete"
-                    ><i class="far fa-trash-alt"></i
-                  ></span>
+                  <span
+                    data-tooltip="tooltip"
+                    data-placement="top"
+                    title="Settings"
+                  ><i class="fas fa-cog"></i></span>
+                  <span
+                    data-tooltip="tooltip"
+                    data-placement="top"
+                    title="Clone"
+                  ><i class="far fa-eye"></i></span>
+                  <span
+                    data-tooltip="tooltip"
+                    data-placement="top"
+                    title="Save"
+                  ><i class="far fa-copy"></i></span>
+                  <span
+                    data-tooltip="tooltip"
+                    data-placement="top"
+                    title="Delete"
+                  ><i class="far fa-trash-alt"></i></span>
                 </div>
               </div>
               <span
@@ -439,24 +588,31 @@
                 data-tooltip="tooltip"
                 data-placement="bottom"
                 title="Add New Row"
-                ><i class="icon icon-plus"></i
-              ></span>
+              ><i class="icon icon-plus"></i></span>
               <div class="hl_page-creator--column">
                 <div class="hl_page-creator--element">
                   <div class="hl_page-creator--actions">
                     <div class="more-actions">
-                      <span data-tooltip="tooltip" data-placement="top" title="Move"
-                        ><i class="fas fa-arrows-alt"></i
-                      ></span>
-                      <span data-tooltip="tooltip" data-placement="top" title="Clone"
-                        ><i class="far fa-eye"></i
-                      ></span>
-                      <span data-tooltip="tooltip" data-placement="top" title="Save"
-                        ><i class="far fa-copy"></i
-                      ></span>
-                      <span data-tooltip="tooltip" data-placement="top" title="Delete"
-                        ><i class="far fa-trash-alt"></i
-                      ></span>
+                      <span
+                        data-tooltip="tooltip"
+                        data-placement="top"
+                        title="Move"
+                      ><i class="fas fa-arrows-alt"></i></span>
+                      <span
+                        data-tooltip="tooltip"
+                        data-placement="top"
+                        title="Clone"
+                      ><i class="far fa-eye"></i></span>
+                      <span
+                        data-tooltip="tooltip"
+                        data-placement="top"
+                        title="Save"
+                      ><i class="far fa-copy"></i></span>
+                      <span
+                        data-tooltip="tooltip"
+                        data-placement="top"
+                        title="Delete"
+                      ><i class="far fa-trash-alt"></i></span>
                     </div>
                   </div>
                   <span
@@ -464,8 +620,7 @@
                     data-tooltip="tooltip"
                     data-placement="bottom"
                     title="Add New Element"
-                    ><i class="icon icon-plus"></i
-                  ></span>
+                  ><i class="icon icon-plus"></i></span>
                   <div class="element-container">
                     <h3>Heading Text Goes Here</h3>
                   </div>
@@ -473,18 +628,26 @@
                 <div class="hl_page-creator--element">
                   <div class="hl_page-creator--actions">
                     <div class="more-actions">
-                      <span data-tooltip="tooltip" data-placement="top" title="Move"
-                        ><i class="fas fa-arrows-alt"></i
-                      ></span>
-                      <span data-tooltip="tooltip" data-placement="top" title="Clone"
-                        ><i class="far fa-eye"></i
-                      ></span>
-                      <span data-tooltip="tooltip" data-placement="top" title="Save"
-                        ><i class="far fa-copy"></i
-                      ></span>
-                      <span data-tooltip="tooltip" data-placement="top" title="Delete"
-                        ><i class="far fa-trash-alt"></i
-                      ></span>
+                      <span
+                        data-tooltip="tooltip"
+                        data-placement="top"
+                        title="Move"
+                      ><i class="fas fa-arrows-alt"></i></span>
+                      <span
+                        data-tooltip="tooltip"
+                        data-placement="top"
+                        title="Clone"
+                      ><i class="far fa-eye"></i></span>
+                      <span
+                        data-tooltip="tooltip"
+                        data-placement="top"
+                        title="Save"
+                      ><i class="far fa-copy"></i></span>
+                      <span
+                        data-tooltip="tooltip"
+                        data-placement="top"
+                        title="Delete"
+                      ><i class="far fa-trash-alt"></i></span>
                     </div>
                   </div>
                   <span
@@ -492,8 +655,7 @@
                     data-tooltip="tooltip"
                     data-placement="bottom"
                     title="Add New Element"
-                    ><i class="icon icon-plus"></i
-                  ></span>
+                  ><i class="icon icon-plus"></i></span>
                   <div class="element-container">
                     <p>
                       Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus sint at cum
@@ -505,12 +667,18 @@
                 </div>
               </div>
               <div class="hl_page-creator--column">
-                <div href="#" class="new-element-blank">
+                <div
+                  href="#"
+                  class="new-element-blank"
+                >
                   <span class="btn btn-light6 btn-slim">Add New Element</span>
                 </div>
               </div>
               <div class="hl_page-creator--column">
-                <div href="#" class="new-element-blank">
+                <div
+                  href="#"
+                  class="new-element-blank"
+                >
                   <span class="btn btn-light6 btn-slim">Add New Element</span>
                 </div>
               </div>
@@ -521,11 +689,16 @@
       <!-- END of .hl_page-creator--main -->
 
       <section class="hl_page-creator--settings-group">
-        <a href="#" class="close-group" id="close-settings-group"
-          ><i class="icon icon-close"></i
-        ></a>
+        <a
+          href="#"
+          class="close-group"
+          id="close-settings-group"
+        ><i class="icon icon-close"></i></a>
         <div class="hl_settings-group">
-          <div class="tab-content" id="hl_settings-group-tab">
+          <div
+            class="tab-content"
+            id="hl_settings-group-tab"
+          >
             <div
               class="tab-pane fade"
               id="integrations"
@@ -545,7 +718,10 @@
                 <hr />
                 <div class="form-group">
                   <label>Integrations</label>
-                  <select class="selectpicker" data-width="100%">
+                  <select
+                    class="selectpicker"
+                    data-width="100%"
+                  >
                     <option>Option 1</option>
                     <option>Option 2</option>
                     <option>Option 3</option>
@@ -553,7 +729,10 @@
                 </div>
                 <div class="form-group">
                   <label>Action</label>
-                  <select class="selectpicker" data-width="100%">
+                  <select
+                    class="selectpicker"
+                    data-width="100%"
+                  >
                     <option>Option 1</option>
                     <option>Option 2</option>
                     <option>Option 3</option>
@@ -561,7 +740,10 @@
                 </div>
                 <div class="form-group">
                   <label>List to Add</label>
-                  <select class="selectpicker" data-width="100%">
+                  <select
+                    class="selectpicker"
+                    data-width="100%"
+                  >
                     <option>Option 1</option>
                     <option>Option 2</option>
                     <option>Option 3</option>
@@ -569,7 +751,12 @@
                 </div>
               </div>
             </div>
-            <div class="tab-pane fade" id="seo" role="tabpanel" aria-labelledby="seo-tab">
+            <div
+              class="tab-pane fade"
+              id="seo"
+              role="tabpanel"
+              aria-labelledby="seo-tab"
+            >
               <h2>SEO Mata Data</h2>
               <div class="seo">
                 <div class="warning">
@@ -577,11 +764,19 @@
                 </div>
                 <div class="form-group">
                   <label>Title</label>
-                  <input type="text" class="form-control" placeholder="Title" />
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Title"
+                  />
                 </div>
                 <div class="form-group">
                   <label>Description</label>
-                  <textarea class="form-control" placeholder="Description" rows="3"></textarea>
+                  <textarea
+                    class="form-control"
+                    placeholder="Description"
+                    rows="3"
+                  ></textarea>
                 </div>
                 <div class="form-group">
                   <label>Keywords</label>
@@ -594,27 +789,46 @@
                 </div>
                 <div class="form-group">
                   <label>Author</label>
-                  <input type="text" class="form-control" placeholder="Author" value="Your Name" />
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Author"
+                    value="Your Name"
+                  />
                 </div>
                 <div class="form-group">
                   <label>Social Image</label>
-                  <input type="file" placeholder="Social Image" />
+                  <input
+                    type="file"
+                    placeholder="Social Image"
+                  />
                 </div>
                 <hr />
                 <h3>SEO Preview</h3>
                 <div class="seo-card --seo1">
                   <h4 class="seo-title">My Awesome Landing Page - Powered by ClickFunnels.com</h4>
-                  <p><a href="#" class="seo-link">http://yourwebsite.com/would-be-here</a></p>
+                  <p><a
+                      href="#"
+                      class="seo-link"
+                    >http://yourwebsite.com/would-be-here</a></p>
                   <p class="seo-description">description for your awesome landing page</p>
                 </div>
                 <div class="seo-card --seo2">
                   <h4 class="seo-title">My Awesome Landing Page - Powered by ClickFunnels.com</h4>
                   <p class="seo-description">description for your awesome landing page</p>
-                  <p><a href="#" class="seo-link">http://yourwebsite.com/would-be-here</a></p>
+                  <p><a
+                      href="#"
+                      class="seo-link"
+                    >http://yourwebsite.com/would-be-here</a></p>
                 </div>
               </div>
             </div>
-            <div class="tab-pane fade" id="tracking" role="tabpanel" aria-labelledby="tracking-tab">
+            <div
+              class="tab-pane fade"
+              id="tracking"
+              role="tabpanel"
+              aria-labelledby="tracking-tab"
+            >
               <h2>Tracking Code</h2>
               <div class="tracking">
                 <div class="form-group">
@@ -627,7 +841,12 @@
                 </div>
               </div>
             </div>
-            <div class="tab-pane fade" id="css" role="tabpanel" aria-labelledby="css-tab">
+            <div
+              class="tab-pane fade"
+              id="css"
+              role="tabpanel"
+              aria-labelledby="css-tab"
+            >
               <h2>Custom CSS</h2>
               <div class="css">
                 <div class="form-group">
@@ -654,11 +873,18 @@
                 </div>
                 <div class="form-group">
                   <label>Color</label>
-                  <input type="text" class="form-control" placeholder="Color" />
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Color"
+                  />
                 </div>
                 <div class="form-group">
                   <label>Background Video</label>
-                  <select class="selectpicker" data-width="100%">
+                  <select
+                    class="selectpicker"
+                    data-width="100%"
+                  >
                     <option>Off</option>
                     <option>On</option>
                   </select>
@@ -680,16 +906,28 @@
                 </p>
               </div>
             </div>
-            <div class="tab-pane fade" id="general" role="tabpanel" aria-labelledby="general-tab">
+            <div
+              class="tab-pane fade"
+              id="general"
+              role="tabpanel"
+              aria-labelledby="general-tab"
+            >
               <h2>General Settings</h2>
               <div class="general">
                 <div class="form-group">
                   <label>On Submit Go To</label>
-                  <input type="text" class="form-control" placeholder="On Submit Go To" />
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="On Submit Go To"
+                  />
                 </div>
                 <div class="form-group">
                   <label>Digital Assets</label>
-                  <select class="selectpicker" data-width="100%">
+                  <select
+                    class="selectpicker"
+                    data-width="100%"
+                  >
                     <option>- no asset / download -</option>
                     <option>Facebook Strategy Guide</option>
                     <option>Anurli</option>
@@ -700,19 +938,28 @@
                 </div>
                 <div class="form-group">
                   <label>Affiliate Badge</label>
-                  <select class="selectpicker" data-width="100%">
+                  <select
+                    class="selectpicker"
+                    data-width="100%"
+                  >
                     <option>Hide</option>
                     <option>Show</option>
                   </select>
                 </div>
                 <div class="form-group">
                   <label>Search Engines</label>
-                  <select class="selectpicker" data-width="100%">
+                  <select
+                    class="selectpicker"
+                    data-width="100%"
+                  >
                     <option>Hide</option>
                     <option>Show</option>
                   </select>
                 </div>
-                <button type="button" class="btn btn-success btn-block">
+                <button
+                  type="button"
+                  class="btn btn-success btn-block"
+                >
                   Save Page as Template
                 </button>
               </div>
@@ -723,9 +970,16 @@
       <!-- END of .hl_page-creator--settings-group -->
 
       <section class="hl_page-creator--sections-group">
-        <a href="#" class="close-group" id="close-section-group"><i class="icon icon-close"></i></a>
+        <a
+          href="#"
+          class="close-group"
+          id="close-section-group"
+        ><i class="icon icon-close"></i></a>
         <div class="hl_section-group">
-          <div class="tab-content" id="hl_section-group-tab">
+          <div
+            class="tab-content"
+            id="hl_section-group-tab"
+          >
             <div
               class="tab-pane fade"
               id="add-section"
@@ -779,86 +1033,106 @@
                       <li>
                         <h4>Section</h4>
                         <div class="actions">
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="fas fa-arrows-alt-v"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-eye"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-copy"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-trash-alt"></i
-                          ></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="fas fa-arrows-alt-v"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-eye"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-copy"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-trash-alt"></i></a>
                         </div>
                       </li>
                       <li>
                         <h4>Section</h4>
                         <div class="actions">
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="fas fa-arrows-alt-v"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-eye"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-copy"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-trash-alt"></i
-                          ></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="fas fa-arrows-alt-v"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-eye"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-copy"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-trash-alt"></i></a>
                         </div>
                       </li>
                       <li>
                         <h4>Section</h4>
                         <div class="actions">
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="fas fa-arrows-alt-v"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-eye"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-copy"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-trash-alt"></i
-                          ></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="fas fa-arrows-alt-v"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-eye"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-copy"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-trash-alt"></i></a>
                         </div>
                       </li>
                       <li>
                         <h4>Section</h4>
                         <div class="actions">
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="fas fa-arrows-alt-v"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-eye"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-copy"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-trash-alt"></i
-                          ></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="fas fa-arrows-alt-v"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-eye"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-copy"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-trash-alt"></i></a>
                         </div>
                       </li>
                       <li>
                         <h4>Section</h4>
                         <div class="actions">
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="fas fa-arrows-alt-v"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-eye"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-copy"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-trash-alt"></i
-                          ></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="fas fa-arrows-alt-v"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-eye"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-copy"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-trash-alt"></i></a>
                         </div>
                       </li>
                     </ul>
@@ -872,10 +1146,22 @@
       <!-- END of .hl_page-creator--sections-group -->
 
       <section class="hl_page-creator--rows-group">
-        <a href="#" class="close-group" id="close-row-group"><i class="icon icon-close"></i></a>
+        <a
+          href="#"
+          class="close-group"
+          id="close-row-group"
+        ><i class="icon icon-close"></i></a>
         <div class="hl_row-group">
-          <div class="tab-content" id="hl_row-group-tab">
-            <div class="tab-pane fade" id="add-row" role="tabpanel" aria-labelledby="add-row-tab">
+          <div
+            class="tab-content"
+            id="hl_row-group-tab"
+          >
+            <div
+              class="tab-pane fade"
+              id="add-row"
+              role="tabpanel"
+              aria-labelledby="add-row-tab"
+            >
               <div class="add-row">
                 <h2>Add Row</h2>
                 <div class="add-row-body">
@@ -947,18 +1233,22 @@
                       <li>
                         <h4>2 Column Row</h4>
                         <div class="actions">
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="fas fa-arrows-alt-v"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-eye"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-copy"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-trash-alt"></i
-                          ></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="fas fa-arrows-alt-v"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-eye"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-copy"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-trash-alt"></i></a>
                         </div>
                       </li>
                     </ul>
@@ -969,35 +1259,43 @@
                       <li>
                         <h4>1 Column Row</h4>
                         <div class="actions">
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="fas fa-arrows-alt-v"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-eye"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-copy"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-trash-alt"></i
-                          ></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="fas fa-arrows-alt-v"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-eye"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-copy"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-trash-alt"></i></a>
                         </div>
                       </li>
                       <li>
                         <h4>1 Column Row</h4>
                         <div class="actions">
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="fas fa-arrows-alt-v"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-eye"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-copy"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-trash-alt"></i
-                          ></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="fas fa-arrows-alt-v"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-eye"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-copy"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-trash-alt"></i></a>
                         </div>
                       </li>
                     </ul>
@@ -1008,18 +1306,22 @@
                       <li>
                         <h4>2 Column Row</h4>
                         <div class="actions">
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="fas fa-arrows-alt-v"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-eye"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-copy"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-trash-alt"></i
-                          ></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="fas fa-arrows-alt-v"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-eye"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-copy"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-trash-alt"></i></a>
                         </div>
                       </li>
                     </ul>
@@ -1030,35 +1332,43 @@
                       <li>
                         <h4>1 Column Row</h4>
                         <div class="actions">
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="fas fa-arrows-alt-v"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-eye"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-copy"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-trash-alt"></i
-                          ></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="fas fa-arrows-alt-v"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-eye"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-copy"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-trash-alt"></i></a>
                         </div>
                       </li>
                       <li>
                         <h4>1 Column Row</h4>
                         <div class="actions">
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="fas fa-arrows-alt-v"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-eye"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-copy"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-trash-alt"></i
-                          ></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="fas fa-arrows-alt-v"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-eye"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-copy"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-trash-alt"></i></a>
                         </div>
                       </li>
                     </ul>
@@ -1072,7 +1382,11 @@
       <!-- END of .hl_page-creator--rows-group -->
 
       <section class="hl_page-creator--columns-group">
-        <a href="#" class="close-group" id="close-column-group"><i class="icon icon-close"></i></a>
+        <a
+          href="#"
+          class="close-group"
+          id="close-column-group"
+        ><i class="icon icon-close"></i></a>
         <div class="manage-columns">
           <h2>Manage Columns</h2>
           <div class="columns-section-group-wrap">
@@ -1082,15 +1396,27 @@
                 <li>
                   <h4>Left Column</h4>
                   <div class="actions">
-                    <a href="#" class="btn btn-square-sm btn-light4"><i class="far fa-edit"></i></a>
-                    <a href="#" class="btn btn-square-sm btn-light4"><i class="far fa-eye"></i></a>
+                    <a
+                      href="#"
+                      class="btn btn-square-sm btn-light4"
+                    ><i class="far fa-edit"></i></a>
+                    <a
+                      href="#"
+                      class="btn btn-square-sm btn-light4"
+                    ><i class="far fa-eye"></i></a>
                   </div>
                 </li>
                 <li>
                   <h4>Right Column</h4>
                   <div class="actions">
-                    <a href="#" class="btn btn-square-sm btn-light4"><i class="far fa-edit"></i></a>
-                    <a href="#" class="btn btn-square-sm btn-light4"><i class="far fa-eye"></i></a>
+                    <a
+                      href="#"
+                      class="btn btn-square-sm btn-light4"
+                    ><i class="far fa-edit"></i></a>
+                    <a
+                      href="#"
+                      class="btn btn-square-sm btn-light4"
+                    ><i class="far fa-eye"></i></a>
                   </div>
                 </li>
               </ul>
@@ -1101,8 +1427,14 @@
                 <li>
                   <h4>Full Column</h4>
                   <div class="actions">
-                    <a href="#" class="btn btn-square-sm btn-light4"><i class="far fa-edit"></i></a>
-                    <a href="#" class="btn btn-square-sm btn-light4"><i class="far fa-eye"></i></a>
+                    <a
+                      href="#"
+                      class="btn btn-square-sm btn-light4"
+                    ><i class="far fa-edit"></i></a>
+                    <a
+                      href="#"
+                      class="btn btn-square-sm btn-light4"
+                    ><i class="far fa-eye"></i></a>
                   </div>
                 </li>
               </ul>
@@ -1113,15 +1445,27 @@
                 <li>
                   <h4>Left Column</h4>
                   <div class="actions">
-                    <a href="#" class="btn btn-square-sm btn-light4"><i class="far fa-edit"></i></a>
-                    <a href="#" class="btn btn-square-sm btn-light4"><i class="far fa-eye"></i></a>
+                    <a
+                      href="#"
+                      class="btn btn-square-sm btn-light4"
+                    ><i class="far fa-edit"></i></a>
+                    <a
+                      href="#"
+                      class="btn btn-square-sm btn-light4"
+                    ><i class="far fa-eye"></i></a>
                   </div>
                 </li>
                 <li>
                   <h4>Right Column</h4>
                   <div class="actions">
-                    <a href="#" class="btn btn-square-sm btn-light4"><i class="far fa-edit"></i></a>
-                    <a href="#" class="btn btn-square-sm btn-light4"><i class="far fa-eye"></i></a>
+                    <a
+                      href="#"
+                      class="btn btn-square-sm btn-light4"
+                    ><i class="far fa-edit"></i></a>
+                    <a
+                      href="#"
+                      class="btn btn-square-sm btn-light4"
+                    ><i class="far fa-eye"></i></a>
                   </div>
                 </li>
               </ul>
@@ -1132,8 +1476,14 @@
                 <li>
                   <h4>Full Column</h4>
                   <div class="actions">
-                    <a href="#" class="btn btn-square-sm btn-light4"><i class="far fa-edit"></i></a>
-                    <a href="#" class="btn btn-square-sm btn-light4"><i class="far fa-eye"></i></a>
+                    <a
+                      href="#"
+                      class="btn btn-square-sm btn-light4"
+                    ><i class="far fa-edit"></i></a>
+                    <a
+                      href="#"
+                      class="btn btn-square-sm btn-light4"
+                    ><i class="far fa-eye"></i></a>
                   </div>
                 </li>
               </ul>
@@ -1144,9 +1494,16 @@
       <!-- END of .hl_page-creator--columns-group -->
 
       <section class="hl_page-creator--element-group">
-        <a href="#" class="close-group" id="close-element-group"><i class="icon icon-close"></i></a>
+        <a
+          href="#"
+          class="close-group"
+          id="close-element-group"
+        ><i class="icon icon-close"></i></a>
         <div class="hl_element-group">
-          <div class="tab-content" id="hl_element-group-tab">
+          <div
+            class="tab-content"
+            id="hl_element-group-tab"
+          >
             <div
               class="tab-pane fade"
               id="add-element"
@@ -1181,7 +1538,11 @@
                 </div>
                 <div class="add-element-body">
                   <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Search" />
+                    <input
+                      type="text"
+                      class="form-control"
+                      placeholder="Search"
+                    />
                   </div>
                   <div class="element-group">
                     <h4>Text</h4>
@@ -1446,18 +1807,22 @@
                       <li>
                         <h4>Image</h4>
                         <div class="actions">
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="fas fa-arrows-alt-v"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-eye"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-copy"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-trash-alt"></i
-                          ></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="fas fa-arrows-alt-v"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-eye"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-copy"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-trash-alt"></i></a>
                         </div>
                       </li>
                     </ul>
@@ -1468,86 +1833,106 @@
                       <li>
                         <h4>Headline</h4>
                         <div class="actions">
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="fas fa-arrows-alt-v"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-eye"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-copy"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-trash-alt"></i
-                          ></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="fas fa-arrows-alt-v"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-eye"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-copy"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-trash-alt"></i></a>
                         </div>
                       </li>
                       <li>
                         <h4>Headline</h4>
                         <div class="actions">
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="fas fa-arrows-alt-v"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-eye"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-copy"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-trash-alt"></i
-                          ></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="fas fa-arrows-alt-v"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-eye"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-copy"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-trash-alt"></i></a>
                         </div>
                       </li>
                       <li>
                         <h4>Input Form</h4>
                         <div class="actions">
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="fas fa-arrows-alt-v"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-eye"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-copy"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-trash-alt"></i
-                          ></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="fas fa-arrows-alt-v"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-eye"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-copy"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-trash-alt"></i></a>
                         </div>
                       </li>
                       <li>
                         <h4>Input Form</h4>
                         <div class="actions">
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="fas fa-arrows-alt-v"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-eye"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-copy"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-trash-alt"></i
-                          ></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="fas fa-arrows-alt-v"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-eye"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-copy"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-trash-alt"></i></a>
                         </div>
                       </li>
                       <li>
                         <h4>Button</h4>
                         <div class="actions">
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="fas fa-arrows-alt-v"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-eye"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-copy"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-trash-alt"></i
-                          ></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="fas fa-arrows-alt-v"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-eye"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-copy"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-trash-alt"></i></a>
                         </div>
                       </li>
                     </ul>
@@ -1558,86 +1943,106 @@
                       <li>
                         <h4>Headline</h4>
                         <div class="actions">
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="fas fa-arrows-alt-v"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-eye"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-copy"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-trash-alt"></i
-                          ></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="fas fa-arrows-alt-v"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-eye"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-copy"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-trash-alt"></i></a>
                         </div>
                       </li>
                       <li>
                         <h4>Button</h4>
                         <div class="actions">
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="fas fa-arrows-alt-v"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-eye"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-copy"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-trash-alt"></i
-                          ></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="fas fa-arrows-alt-v"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-eye"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-copy"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-trash-alt"></i></a>
                         </div>
                       </li>
                       <li>
                         <h4>Input</h4>
                         <div class="actions">
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="fas fa-arrows-alt-v"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-eye"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-copy"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-trash-alt"></i
-                          ></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="fas fa-arrows-alt-v"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-eye"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-copy"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-trash-alt"></i></a>
                         </div>
                       </li>
                       <li>
                         <h4>Button</h4>
                         <div class="actions">
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="fas fa-arrows-alt-v"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-eye"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-copy"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-trash-alt"></i
-                          ></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="fas fa-arrows-alt-v"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-eye"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-copy"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-trash-alt"></i></a>
                         </div>
                       </li>
                       <li>
                         <h4>Headline</h4>
                         <div class="actions">
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="fas fa-arrows-alt-v"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-eye"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-copy"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-trash-alt"></i
-                          ></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="fas fa-arrows-alt-v"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-eye"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-copy"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-trash-alt"></i></a>
                         </div>
                       </li>
                     </ul>
@@ -1648,86 +2053,106 @@
                       <li>
                         <h4>Headline</h4>
                         <div class="actions">
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="fas fa-arrows-alt-v"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-eye"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-copy"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-trash-alt"></i
-                          ></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="fas fa-arrows-alt-v"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-eye"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-copy"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-trash-alt"></i></a>
                         </div>
                       </li>
                       <li>
                         <h4>Headline</h4>
                         <div class="actions">
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="fas fa-arrows-alt-v"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-eye"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-copy"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-trash-alt"></i
-                          ></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="fas fa-arrows-alt-v"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-eye"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-copy"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-trash-alt"></i></a>
                         </div>
                       </li>
                       <li>
                         <h4>Input Form</h4>
                         <div class="actions">
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="fas fa-arrows-alt-v"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-eye"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-copy"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-trash-alt"></i
-                          ></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="fas fa-arrows-alt-v"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-eye"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-copy"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-trash-alt"></i></a>
                         </div>
                       </li>
                       <li>
                         <h4>Input Form</h4>
                         <div class="actions">
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="fas fa-arrows-alt-v"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-eye"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-copy"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-trash-alt"></i
-                          ></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="fas fa-arrows-alt-v"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-eye"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-copy"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-trash-alt"></i></a>
                         </div>
                       </li>
                       <li>
                         <h4>Button</h4>
                         <div class="actions">
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="fas fa-arrows-alt-v"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-eye"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-copy"></i
-                          ></a>
-                          <a href="#" class="btn btn-square-sm btn-light4"
-                            ><i class="far fa-trash-alt"></i
-                          ></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="fas fa-arrows-alt-v"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-eye"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-copy"></i></a>
+                          <a
+                            href="#"
+                            class="btn btn-square-sm btn-light4"
+                          ><i class="far fa-trash-alt"></i></a>
                         </div>
                       </li>
                     </ul>
