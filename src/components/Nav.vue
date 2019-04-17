@@ -1,18 +1,8 @@
 <template>
-  <nav
-    class="hl_navbar shrink"
-    id="navbar"
-  >
+  <nav class="hl_navbar shrink" id="navbar">
     <div class="hl_navbar--inner">
-      <a
-        href="./"
-        class="hl_navbar--logo"
-      >
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="28"
-          height="26"
-        >
+      <a href="./" class="hl_navbar--logo">
+        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="26">
           <image
             width="28"
             height="26"
@@ -20,35 +10,22 @@
           />
         </svg>
       </a>
-      <button
-        class="hl_navbar--toggler"
-        type="button"
-        id="navbar-toggler"
-      >
+      <button class="hl_navbar--toggler" type="button" id="navbar-toggler">
         <span class="navbar-toggler-bar"></span>
         <span class="navbar-toggler-bar"></span>
         <span class="navbar-toggler-bar"></span>
       </button>
-      <div
-        class="hl_navbar--collapse"
-        id="navbar-collapse"
-      >
+      <div class="hl_navbar--collapse" id="navbar-collapse">
         <button
           class="hl_navbar--button btn btn-success btn-block"
           data-toggle="modal"
           data-target="#client-checkin--modal"
-        >Check In Client</button>
-        <ul
-          class="hl_navbar--links list-unstyled"
-          id="nav-links"
         >
+          Check In Client
+        </button>
+        <ul class="hl_navbar--links list-unstyled" id="nav-links">
           <li id="nav-dashboard">
-            <a
-              href="./"
-              data-tooltip="nav-tooltip"
-              data-placement="right"
-              title="Dashboard"
-            >
+            <a href="./" data-tooltip="nav-tooltip" data-placement="right" title="Dashboard">
               <i class="icon-duplicate"></i>
               <span>Dashboard</span>
             </a>
@@ -79,10 +56,7 @@
               <span>Marketing</span>
               <i class="caret icon-arrow-down-1"></i>
             </a>
-            <div
-              class="collapse nav-dropdown-links"
-              id="nav-marketing-collapse"
-            >
+            <div class="collapse nav-dropdown-links" id="nav-marketing-collapse">
               <ul>
                 <li class="active">
                   <a href="./customer-acquisition.html">Customer Acquisition</a>
@@ -140,10 +114,7 @@
               <span>Customers</span>
               <i class="caret icon-arrow-down-1"></i>
             </a>
-            <div
-              class="collapse nav-dropdown-links"
-              id="nav-customer-collapse"
-            >
+            <div class="collapse nav-dropdown-links" id="nav-customer-collapse">
               <ul>
                 <li class="active">
                   <a href="./contact-details.html">Contact Details</a>
@@ -155,12 +126,7 @@
             </div>
           </li>
           <li id="nav-team">
-            <a
-              href="./team.html"
-              data-tooltip="nav-tooltip"
-              data-placement="right"
-              title="Team"
-            >
+            <a href="./team.html" data-tooltip="nav-tooltip" data-placement="right" title="Team">
               <i class="icon-heart"></i>
               <span>Team</span>
             </a>
