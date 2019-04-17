@@ -1,10 +1,16 @@
 <template>
-  <div id="app"></div>
+  <div id="app">
+    <Nav></Nav>
+  </div>
 </template>
 
 <script>
+import Nav from "./components/Nav.vue";
+
 export default {
   name: "app",
-  components: {}
+  components: {
+    Nav
+  }
 };
 </script>
