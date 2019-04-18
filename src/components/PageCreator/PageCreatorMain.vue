@@ -43,10 +43,7 @@
           >
             <i class="fas fa-plug"></i>
           </button>
-          <div
-            class="dropdown"
-            id="settings-group"
-          >
+          <div class="dropdown" id="settings-group">
             <button
               type="button"
               class="btn btn-light btn-sm dropdown-toggle"
@@ -61,41 +58,13 @@
             </button>
             <div class="dropdown-menu">
               <div class="nav">
-                <a
-                  class="dropdown-item"
-                  data-toggle="tab"
-                  href="#integrations"
-                >Integrations</a>
-                <a
-                  class="dropdown-item"
-                  data-toggle="tab"
-                  href="#seo"
-                >SEO Meta Data</a>
-                <a
-                  class="dropdown-item"
-                  data-toggle="tab"
-                  href="#tracking"
-                >Tracking Code</a>
-                <a
-                  class="dropdown-item"
-                  data-toggle="tab"
-                  href="#css"
-                >Custom CSS</a>
-                <a
-                  class="dropdown-item"
-                  data-toggle="tab"
-                  href="#background"
-                >Background</a>
-                <a
-                  class="dropdown-item"
-                  data-toggle="tab"
-                  href="#typography"
-                >Typography</a>
-                <a
-                  class="dropdown-item"
-                  data-toggle="tab"
-                  href="#general"
-                >General</a>
+                <a class="dropdown-item" data-toggle="tab" href="#integrations">Integrations</a>
+                <a class="dropdown-item" data-toggle="tab" href="#seo">SEO Meta Data</a>
+                <a class="dropdown-item" data-toggle="tab" href="#tracking">Tracking Code</a>
+                <a class="dropdown-item" data-toggle="tab" href="#css">Custom CSS</a>
+                <a class="dropdown-item" data-toggle="tab" href="#background">Background</a>
+                <a class="dropdown-item" data-toggle="tab" href="#typography">Typography</a>
+                <a class="dropdown-item" data-toggle="tab" href="#general">General</a>
               </div>
             </div>
           </div>
@@ -113,14 +82,8 @@
               <i class="fas fa-external-link-alt"></i><span class="btn-text">Pop up</span>
             </button>
             <div class="dropdown-menu">
-              <a
-                class="dropdown-item"
-                href="#"
-              >Show Popup</a>
-              <a
-                class="dropdown-item"
-                href="#"
-              >Edit Settings</a>
+              <a class="dropdown-item" href="#">Show Popup</a>
+              <a class="dropdown-item" href="#">Edit Settings</a>
             </div>
           </div>
           <button
@@ -146,10 +109,7 @@
       </div>
       <div class="menu--right">
         <div class="btn-group">
-          <div
-            class="dropdown"
-            id="section-group"
-          >
+          <div class="dropdown" id="section-group">
             <button
               type="button"
               class="btn btn-light btn-sm dropdown-toggle"
@@ -164,23 +124,12 @@
             </button>
             <div class="dropdown-menu">
               <div class="nav">
-                <a
-                  class="dropdown-item"
-                  data-toggle="tab"
-                  href="#add-section"
-                >Add Section</a>
-                <a
-                  class="dropdown-item"
-                  data-toggle="tab"
-                  href="#manage-sections"
-                >Manage</a>
+                <a class="dropdown-item" data-toggle="tab" href="#add-section">Add Section</a>
+                <a class="dropdown-item" data-toggle="tab" href="#manage-sections">Manage</a>
               </div>
             </div>
           </div>
-          <div
-            class="dropdown"
-            id="row-group"
-          >
+          <div class="dropdown" id="row-group">
             <button
               type="button"
               class="btn btn-light btn-sm dropdown-toggle"
@@ -195,16 +144,8 @@
             </button>
             <div class="dropdown-menu">
               <div class="nav">
-                <a
-                  class="dropdown-item"
-                  data-toggle="tab"
-                  href="#add-row"
-                >Add Row</a>
-                <a
-                  class="dropdown-item"
-                  data-toggle="tab"
-                  href="#manage-rows"
-                >Manage</a>
+                <a class="dropdown-item" data-toggle="tab" href="#add-row">Add Row</a>
+                <a class="dropdown-item" data-toggle="tab" href="#manage-rows">Manage</a>
               </div>
             </div>
           </div>
@@ -218,10 +159,7 @@
           >
             <i class="fas fa-columns"></i><span class="btn-text">Columns</span>
           </button>
-          <div
-            class="dropdown"
-            id="element-group"
-          >
+          <div class="dropdown" id="element-group">
             <button
               type="button"
               class="btn btn-light btn-sm dropdown-toggle"
@@ -236,16 +174,8 @@
             </button>
             <div class="dropdown-menu">
               <div class="nav">
-                <a
-                  class="dropdown-item"
-                  data-toggle="tab"
-                  href="#add-element"
-                >Add Element</a>
-                <a
-                  class="dropdown-item"
-                  data-toggle="tab"
-                  href="#manage-elements"
-                >Manage</a>
+                <a class="dropdown-item" data-toggle="tab" href="#add-element">Add Element</a>
+                <a class="dropdown-item" data-toggle="tab" href="#manage-elements">Manage</a>
               </div>
             </div>
           </div>
@@ -274,56 +204,7 @@
     </div>
 
     <div class="hl_page-creator--content">
-      <section class="hl_page-creator--section">
-        <div class="hl_page-creator--actions">
-          <div class="move-actions">
-            <span
-              data-tooltip="tooltip"
-              data-placement="right"
-              title="Up"
-            ><i class="icon icon-arrow-up-2"></i></span>
-            <span
-              data-tooltip="tooltip"
-              data-placement="right"
-              title="Down"
-            ><i class="icon icon-arrow-down-2"></i></span>
-          </div>
-          <div class="more-actions">
-            <span
-              data-tooltip="tooltip"
-              data-placement="left"
-              title="Settings"
-            ><i class="fas fa-cog"></i></span>
-            <span
-              data-tooltip="tooltip"
-              data-placement="left"
-              title="Clone"
-            ><i class="far fa-eye"></i></span>
-            <span
-              data-tooltip="tooltip"
-              data-placement="left"
-              title="Save"
-            ><i class="far fa-copy"></i></span>
-            <span
-              data-tooltip="tooltip"
-              data-placement="left"
-              title="Delete"
-            ><i class="far fa-trash-alt"></i></span>
-          </div>
-        </div>
-        <span
-          class="add-new-section"
-          data-tooltip="tooltip"
-          data-placement="bottom"
-          title="Add New Section"
-        ><i class="icon icon-plus"></i></span>
-        <div
-          href="#"
-          class="new-row-blank"
-        >
-          <span class="btn btn-light5 btn-slim">Add New Row</span>
-        </div>
-      </section>
+      <Section :elements="elements" @addRow="addRow"></Section>
 
       <section
         class="hl_page-creator--section"
@@ -331,38 +212,26 @@
       >
         <div class="hl_page-creator--actions">
           <div class="move-actions">
-            <span
-              data-tooltip="tooltip"
-              data-placement="right"
-              title="Up"
-            ><i class="icon icon-arrow-up-2"></i></span>
-            <span
-              data-tooltip="tooltip"
-              data-placement="right"
-              title="Down"
-            ><i class="icon icon-arrow-down-2"></i></span>
+            <span data-tooltip="tooltip" data-placement="right" title="Up"
+              ><i class="icon icon-arrow-up-2"></i
+            ></span>
+            <span data-tooltip="tooltip" data-placement="right" title="Down"
+              ><i class="icon icon-arrow-down-2"></i
+            ></span>
           </div>
           <div class="more-actions">
-            <span
-              data-tooltip="tooltip"
-              data-placement="left"
-              title="Settings"
-            ><i class="fas fa-cog"></i></span>
-            <span
-              data-tooltip="tooltip"
-              data-placement="left"
-              title="Clone"
-            ><i class="far fa-eye"></i></span>
-            <span
-              data-tooltip="tooltip"
-              data-placement="left"
-              title="Save"
-            ><i class="far fa-copy"></i></span>
-            <span
-              data-tooltip="tooltip"
-              data-placement="left"
-              title="Delete"
-            ><i class="far fa-trash-alt"></i></span>
+            <span data-tooltip="tooltip" data-placement="left" title="Settings"
+              ><i class="fas fa-cog"></i
+            ></span>
+            <span data-tooltip="tooltip" data-placement="left" title="Clone"
+              ><i class="far fa-eye"></i
+            ></span>
+            <span data-tooltip="tooltip" data-placement="left" title="Save"
+              ><i class="far fa-copy"></i
+            ></span>
+            <span data-tooltip="tooltip" data-placement="left" title="Delete"
+              ><i class="far fa-trash-alt"></i
+            ></span>
           </div>
         </div>
         <span
@@ -370,42 +239,31 @@
           data-tooltip="tooltip"
           data-placement="bottom"
           title="Add New Section"
-        ><i class="icon icon-plus"></i></span>
+          ><i class="icon icon-plus"></i
+        ></span>
         <div class="hl_page-creator--row">
           <div class="hl_page-creator--actions">
             <div class="move-actions">
-              <span
-                data-tooltip="tooltip"
-                data-placement="top"
-                title="Up"
-              ><i class="icon icon-arrow-up-2"></i></span>
-              <span
-                data-tooltip="tooltip"
-                data-placement="top"
-                title="Down"
-              ><i class="icon icon-arrow-down-2"></i></span>
+              <span data-tooltip="tooltip" data-placement="top" title="Up"
+                ><i class="icon icon-arrow-up-2"></i
+              ></span>
+              <span data-tooltip="tooltip" data-placement="top" title="Down"
+                ><i class="icon icon-arrow-down-2"></i
+              ></span>
             </div>
             <div class="more-actions">
-              <span
-                data-tooltip="tooltip"
-                data-placement="top"
-                title="Settings"
-              ><i class="fas fa-cog"></i></span>
-              <span
-                data-tooltip="tooltip"
-                data-placement="top"
-                title="Clone"
-              ><i class="far fa-eye"></i></span>
-              <span
-                data-tooltip="tooltip"
-                data-placement="top"
-                title="Save"
-              ><i class="far fa-copy"></i></span>
-              <span
-                data-tooltip="tooltip"
-                data-placement="top"
-                title="Delete"
-              ><i class="far fa-trash-alt"></i></span>
+              <span data-tooltip="tooltip" data-placement="top" title="Settings"
+                ><i class="fas fa-cog"></i
+              ></span>
+              <span data-tooltip="tooltip" data-placement="top" title="Clone"
+                ><i class="far fa-eye"></i
+              ></span>
+              <span data-tooltip="tooltip" data-placement="top" title="Save"
+                ><i class="far fa-copy"></i
+              ></span>
+              <span data-tooltip="tooltip" data-placement="top" title="Delete"
+                ><i class="far fa-trash-alt"></i
+              ></span>
             </div>
           </div>
           <span
@@ -413,31 +271,24 @@
             data-tooltip="tooltip"
             data-placement="bottom"
             title="Add New Row"
-          ><i class="icon icon-plus"></i></span>
+            ><i class="icon icon-plus"></i
+          ></span>
           <div class="hl_page-creator--column">
             <div class="hl_page-creator--element">
               <div class="hl_page-creator--actions">
                 <div class="more-actions">
-                  <span
-                    data-tooltip="tooltip"
-                    data-placement="top"
-                    title="Move"
-                  ><i class="fas fa-arrows-alt"></i></span>
-                  <span
-                    data-tooltip="tooltip"
-                    data-placement="top"
-                    title="Clone"
-                  ><i class="far fa-eye"></i></span>
-                  <span
-                    data-tooltip="tooltip"
-                    data-placement="top"
-                    title="Save"
-                  ><i class="far fa-copy"></i></span>
-                  <span
-                    data-tooltip="tooltip"
-                    data-placement="top"
-                    title="Delete"
-                  ><i class="far fa-trash-alt"></i></span>
+                  <span data-tooltip="tooltip" data-placement="top" title="Move"
+                    ><i class="fas fa-arrows-alt"></i
+                  ></span>
+                  <span data-tooltip="tooltip" data-placement="top" title="Clone"
+                    ><i class="far fa-eye"></i
+                  ></span>
+                  <span data-tooltip="tooltip" data-placement="top" title="Save"
+                    ><i class="far fa-copy"></i
+                  ></span>
+                  <span data-tooltip="tooltip" data-placement="top" title="Delete"
+                    ><i class="far fa-trash-alt"></i
+                  ></span>
                 </div>
               </div>
               <span
@@ -445,7 +296,8 @@
                 data-tooltip="tooltip"
                 data-placement="bottom"
                 title="Add New Element"
-              ><i class="icon icon-plus"></i></span>
+                ><i class="icon icon-plus"></i
+              ></span>
               <div class="element-container">
                 <h1>Heading Text Goes Here</h1>
               </div>
@@ -453,26 +305,18 @@
             <div class="hl_page-creator--element">
               <div class="hl_page-creator--actions">
                 <div class="more-actions">
-                  <span
-                    data-tooltip="tooltip"
-                    data-placement="top"
-                    title="Move"
-                  ><i class="fas fa-arrows-alt"></i></span>
-                  <span
-                    data-tooltip="tooltip"
-                    data-placement="top"
-                    title="Clone"
-                  ><i class="far fa-eye"></i></span>
-                  <span
-                    data-tooltip="tooltip"
-                    data-placement="top"
-                    title="Save"
-                  ><i class="far fa-copy"></i></span>
-                  <span
-                    data-tooltip="tooltip"
-                    data-placement="top"
-                    title="Delete"
-                  ><i class="far fa-trash-alt"></i></span>
+                  <span data-tooltip="tooltip" data-placement="top" title="Move"
+                    ><i class="fas fa-arrows-alt"></i
+                  ></span>
+                  <span data-tooltip="tooltip" data-placement="top" title="Clone"
+                    ><i class="far fa-eye"></i
+                  ></span>
+                  <span data-tooltip="tooltip" data-placement="top" title="Save"
+                    ><i class="far fa-copy"></i
+                  ></span>
+                  <span data-tooltip="tooltip" data-placement="top" title="Delete"
+                    ><i class="far fa-trash-alt"></i
+                  ></span>
                 </div>
               </div>
               <span
@@ -480,17 +324,15 @@
                 data-tooltip="tooltip"
                 data-placement="bottom"
                 title="Add New Element"
-              ><i class="icon icon-plus"></i></span>
-              <div
-                class="element-container"
-                style="max-width: 700px; margin: 0 auto;"
-              >
+                ><i class="icon icon-plus"></i
+              ></span>
+              <div class="element-container" style="max-width: 700px; margin: 0 auto;">
                 <p>
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem architecto
-                  quas mollitia voluptates iure consequuntur totam numquam quasi quaerat, iste,
-                  libero asperiores optio praesentium autem culpa doloremque laudantium in
-                  deleniti, corrupti eaque illo nam quae. Vel nesciunt, libero ipsa similique
-                  ipsum ducimus fuga magni. Voluptatum iste pariatur cum doloremque est.
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem architecto quas
+                  mollitia voluptates iure consequuntur totam numquam quasi quaerat, iste, libero
+                  asperiores optio praesentium autem culpa doloremque laudantium in deleniti,
+                  corrupti eaque illo nam quae. Vel nesciunt, libero ipsa similique ipsum ducimus
+                  fuga magni. Voluptatum iste pariatur cum doloremque est.
                 </p>
               </div>
             </div>
@@ -501,38 +343,26 @@
       <section class="hl_page-creator--section">
         <div class="hl_page-creator--actions">
           <div class="move-actions">
-            <span
-              data-tooltip="tooltip"
-              data-placement="right"
-              title="Up"
-            ><i class="icon icon-arrow-up-2"></i></span>
-            <span
-              data-tooltip="tooltip"
-              data-placement="right"
-              title="Down"
-            ><i class="icon icon-arrow-down-2"></i></span>
+            <span data-tooltip="tooltip" data-placement="right" title="Up"
+              ><i class="icon icon-arrow-up-2"></i
+            ></span>
+            <span data-tooltip="tooltip" data-placement="right" title="Down"
+              ><i class="icon icon-arrow-down-2"></i
+            ></span>
           </div>
           <div class="more-actions">
-            <span
-              data-tooltip="tooltip"
-              data-placement="left"
-              title="Settings"
-            ><i class="fas fa-cog"></i></span>
-            <span
-              data-tooltip="tooltip"
-              data-placement="left"
-              title="Clone"
-            ><i class="far fa-eye"></i></span>
-            <span
-              data-tooltip="tooltip"
-              data-placement="left"
-              title="Save"
-            ><i class="far fa-copy"></i></span>
-            <span
-              data-tooltip="tooltip"
-              data-placement="left"
-              title="Delete"
-            ><i class="far fa-trash-alt"></i></span>
+            <span data-tooltip="tooltip" data-placement="left" title="Settings"
+              ><i class="fas fa-cog"></i
+            ></span>
+            <span data-tooltip="tooltip" data-placement="left" title="Clone"
+              ><i class="far fa-eye"></i
+            ></span>
+            <span data-tooltip="tooltip" data-placement="left" title="Save"
+              ><i class="far fa-copy"></i
+            ></span>
+            <span data-tooltip="tooltip" data-placement="left" title="Delete"
+              ><i class="far fa-trash-alt"></i
+            ></span>
           </div>
         </div>
         <span
@@ -540,42 +370,31 @@
           data-tooltip="tooltip"
           data-placement="bottom"
           title="Add New Section"
-        ><i class="icon icon-plus"></i></span>
+          ><i class="icon icon-plus"></i
+        ></span>
         <div class="hl_page-creator--row">
           <div class="hl_page-creator--actions">
             <div class="move-actions">
-              <span
-                data-tooltip="tooltip"
-                data-placement="top"
-                title="Up"
-              ><i class="icon icon-arrow-up-2"></i></span>
-              <span
-                data-tooltip="tooltip"
-                data-placement="top"
-                title="Down"
-              ><i class="icon icon-arrow-down-2"></i></span>
+              <span data-tooltip="tooltip" data-placement="top" title="Up"
+                ><i class="icon icon-arrow-up-2"></i
+              ></span>
+              <span data-tooltip="tooltip" data-placement="top" title="Down"
+                ><i class="icon icon-arrow-down-2"></i
+              ></span>
             </div>
             <div class="more-actions">
-              <span
-                data-tooltip="tooltip"
-                data-placement="top"
-                title="Settings"
-              ><i class="fas fa-cog"></i></span>
-              <span
-                data-tooltip="tooltip"
-                data-placement="top"
-                title="Clone"
-              ><i class="far fa-eye"></i></span>
-              <span
-                data-tooltip="tooltip"
-                data-placement="top"
-                title="Save"
-              ><i class="far fa-copy"></i></span>
-              <span
-                data-tooltip="tooltip"
-                data-placement="top"
-                title="Delete"
-              ><i class="far fa-trash-alt"></i></span>
+              <span data-tooltip="tooltip" data-placement="top" title="Settings"
+                ><i class="fas fa-cog"></i
+              ></span>
+              <span data-tooltip="tooltip" data-placement="top" title="Clone"
+                ><i class="far fa-eye"></i
+              ></span>
+              <span data-tooltip="tooltip" data-placement="top" title="Save"
+                ><i class="far fa-copy"></i
+              ></span>
+              <span data-tooltip="tooltip" data-placement="top" title="Delete"
+                ><i class="far fa-trash-alt"></i
+              ></span>
             </div>
           </div>
           <span
@@ -583,31 +402,24 @@
             data-tooltip="tooltip"
             data-placement="bottom"
             title="Add New Row"
-          ><i class="icon icon-plus"></i></span>
+            ><i class="icon icon-plus"></i
+          ></span>
           <div class="hl_page-creator--column">
             <div class="hl_page-creator--element">
               <div class="hl_page-creator--actions">
                 <div class="more-actions">
-                  <span
-                    data-tooltip="tooltip"
-                    data-placement="top"
-                    title="Move"
-                  ><i class="fas fa-arrows-alt"></i></span>
-                  <span
-                    data-tooltip="tooltip"
-                    data-placement="top"
-                    title="Clone"
-                  ><i class="far fa-eye"></i></span>
-                  <span
-                    data-tooltip="tooltip"
-                    data-placement="top"
-                    title="Save"
-                  ><i class="far fa-copy"></i></span>
-                  <span
-                    data-tooltip="tooltip"
-                    data-placement="top"
-                    title="Delete"
-                  ><i class="far fa-trash-alt"></i></span>
+                  <span data-tooltip="tooltip" data-placement="top" title="Move"
+                    ><i class="fas fa-arrows-alt"></i
+                  ></span>
+                  <span data-tooltip="tooltip" data-placement="top" title="Clone"
+                    ><i class="far fa-eye"></i
+                  ></span>
+                  <span data-tooltip="tooltip" data-placement="top" title="Save"
+                    ><i class="far fa-copy"></i
+                  ></span>
+                  <span data-tooltip="tooltip" data-placement="top" title="Delete"
+                    ><i class="far fa-trash-alt"></i
+                  ></span>
                 </div>
               </div>
               <span
@@ -615,7 +427,8 @@
                 data-tooltip="tooltip"
                 data-placement="bottom"
                 title="Add New Element"
-              ><i class="icon icon-plus"></i></span>
+                ><i class="icon icon-plus"></i
+              ></span>
               <div class="element-container">
                 <h3>Heading Text Goes Here</h3>
               </div>
@@ -623,26 +436,18 @@
             <div class="hl_page-creator--element">
               <div class="hl_page-creator--actions">
                 <div class="more-actions">
-                  <span
-                    data-tooltip="tooltip"
-                    data-placement="top"
-                    title="Move"
-                  ><i class="fas fa-arrows-alt"></i></span>
-                  <span
-                    data-tooltip="tooltip"
-                    data-placement="top"
-                    title="Clone"
-                  ><i class="far fa-eye"></i></span>
-                  <span
-                    data-tooltip="tooltip"
-                    data-placement="top"
-                    title="Save"
-                  ><i class="far fa-copy"></i></span>
-                  <span
-                    data-tooltip="tooltip"
-                    data-placement="top"
-                    title="Delete"
-                  ><i class="far fa-trash-alt"></i></span>
+                  <span data-tooltip="tooltip" data-placement="top" title="Move"
+                    ><i class="fas fa-arrows-alt"></i
+                  ></span>
+                  <span data-tooltip="tooltip" data-placement="top" title="Clone"
+                    ><i class="far fa-eye"></i
+                  ></span>
+                  <span data-tooltip="tooltip" data-placement="top" title="Save"
+                    ><i class="far fa-copy"></i
+                  ></span>
+                  <span data-tooltip="tooltip" data-placement="top" title="Delete"
+                    ><i class="far fa-trash-alt"></i
+                  ></span>
                 </div>
               </div>
               <span
@@ -650,30 +455,24 @@
                 data-tooltip="tooltip"
                 data-placement="bottom"
                 title="Add New Element"
-              ><i class="icon icon-plus"></i></span>
+                ><i class="icon icon-plus"></i
+              ></span>
               <div class="element-container">
                 <p>
                   Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus sint at cum
-                  ratione, itaque quas assumenda consequatur, exercitationem ipsa
-                  necessitatibus, eaque nemo aliquid quasi. Doloremque dolor pariatur ea quod
-                  distinctio?
+                  ratione, itaque quas assumenda consequatur, exercitationem ipsa necessitatibus,
+                  eaque nemo aliquid quasi. Doloremque dolor pariatur ea quod distinctio?
                 </p>
               </div>
             </div>
           </div>
           <div class="hl_page-creator--column">
-            <div
-              href="#"
-              class="new-element-blank"
-            >
+            <div href="#" class="new-element-blank">
               <span class="btn btn-light6 btn-slim">Add New Element</span>
             </div>
           </div>
           <div class="hl_page-creator--column">
-            <div
-              href="#"
-              class="new-element-blank"
-            >
+            <div href="#" class="new-element-blank">
               <span class="btn btn-light6 btn-slim">Add New Element</span>
             </div>
           </div>
@@ -682,3 +481,40 @@
     </div>
   </section>
 </template>
+
+<script>
+import Section from "./Components/Section.vue";
+import Row from "./Components/Row.vue";
+import Heading from "./Components/Heading.vue";
+import Image from "./Components/Image.vue";
+
+export default {
+  components: {
+    Section
+  },
+  data: function() {
+    return {
+      elements: [{ name: "Row", component: Row }]
+    };
+  },
+  mounted() {
+    this.$root.$on("addHeading", () => {
+      this.addHeading();
+    });
+    this.$root.$on("addImage", () => {
+      this.addImage();
+    });
+  },
+  methods: {
+    addRow() {
+      this.elements.push({ name: "Row", component: Row });
+    },
+    addHeading() {
+      this.elements.push({ name: "Heading", component: Heading });
+    },
+    addImage() {
+      this.elements.push({ name: "Image", component: Image });
+    }
+  }
+};
+</script>

@@ -1,25 +1,22 @@
 <template>
   <section class="hl_wrapper nav-shrink d-flex">
-    <section
-      class="hl_wrapper--inner page-creator"
-      id="page-creator"
-    >
+    <section class="hl_wrapper--inner page-creator" id="page-creator">
       <PageCreatorMain></PageCreatorMain>
       <!-- END of .hl_page-creator--main -->
 
       <PageCreatorSettings></PageCreatorSettings>
       <!-- END of .hl_page-creator--settings-group -->
 
-      <PageCreatorSections></PageCreatorSections>
+      <PageCreatorSectionsMenu></PageCreatorSectionsMenu>
       <!-- END of .hl_page-creator--sections-group -->
 
-      <PageCreatorRows></PageCreatorRows>
+      <PageCreatorRowsMenu></PageCreatorRowsMenu>
       <!-- END of .hl_page-creator--rows-group -->
 
-      <PageCreatorColumns></PageCreatorColumns>
+      <PageCreatorColumnsMenu> </PageCreatorColumnsMenu>
       <!-- END of .hl_page-creator--columns-group -->
 
-      <PageCreatorElement></PageCreatorElement>
+      <PageCreatorElementMenu> </PageCreatorElementMenu>
 
       <!-- END of .hl_page-creator--element-group -->
     </section>
@@ -30,20 +27,19 @@
 <script>
 import PageCreatorMain from "./PageCreator/PageCreatorMain.vue";
 import PageCreatorSettings from "./PageCreator/PageCreatorSettings.vue";
-import PageCreatorSections from "./PageCreator/PageCreatorSections.vue";
-import PageCreatorRows from "./PageCreator/PageCreatorRows.vue";
-import PageCreatorColumns from "./PageCreator/PageCreatorColumns.vue";
-import PageCreatorElement from "./PageCreator/PageCreatorElement.vue";
+import PageCreatorSectionsMenu from "./PageCreator/PageCreatorSectionsMenu.vue";
+import PageCreatorRowsMenu from "./PageCreator/PageCreatorRowsMenu.vue";
+import PageCreatorColumnsMenu from "./PageCreator/PageCreatorColumnsMenu.vue";
+import PageCreatorElementMenu from "./PageCreator/PageCreatorElementMenu.vue";
 
 export default {
   components: {
     PageCreatorMain,
     PageCreatorSettings,
-    PageCreatorSections,
-    PageCreatorRows,
-    PageCreatorColumns,
-    PageCreatorElement
+    PageCreatorSectionsMenu,
+    PageCreatorRowsMenu,
+    PageCreatorColumnsMenu,
+    PageCreatorElementMenu
   }
 };
 </script>
-
