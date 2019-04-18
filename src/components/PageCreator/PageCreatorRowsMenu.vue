@@ -8,7 +8,7 @@
             <h2>Add Row</h2>
             <div class="add-row-body">
               <div class="row-cards">
-                <div class="row-card">
+                <div class="row-card" @click="addRow">
                   <div class="icon">
                     <i class="fas fa-columns"></i>
                   </div>
@@ -198,3 +198,13 @@
     </div>
   </section>
 </template>
+
+<script>
+export default {
+  methods: {
+    addRow() {
+      this.$root.$emit("addRow");
+    }
+  }
+};
+</script>

@@ -11,6 +11,8 @@
   "dependencies": {
     "core-js": "^2.6.5",
     "vue": "^2.6.10",
+    "vue-drag-drop": "^1.1.4",
+    "vuedraggable": "^2.20.0",
     "vuex": "^3.0.1"
   },
   "devDependencies": {

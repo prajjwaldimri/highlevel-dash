@@ -42,12 +42,18 @@
               <div class="element-group">
                 <h4>Text</h4>
                 <div class="element-cards">
-                  <div class="element-card" @click="addHeading">
-                    <div class="icon">
-                      <i class="fas fa-heading"></i>
+                  <draggable
+                    class="element-card"
+                    @end="onHeadingDragEnd"
+                    @start="onHeadingDragStart"
+                  >
+                    <div>
+                      <div class="icon">
+                        <i class="fas fa-heading"></i>
+                      </div>
+                      <h5>Headline</h5>
                     </div>
-                    <h5>Headline</h5>
-                  </div>
+                  </draggable>
                   <div class="element-card">
                     <div class="icon">
                       <i class="fas fa-font"></i>
@@ -71,12 +77,14 @@
               <div class="element-group">
                 <h4>Media</h4>
                 <div class="element-cards">
-                  <div class="element-card" @click="addImage">
-                    <div class="icon">
-                      <i class="fas fa-image"></i>
+                  <draggable class="element-card">
+                    <div @click="addImage">
+                      <div class="icon">
+                        <i class="fas fa-image"></i>
+                      </div>
+                      <h5>Image</h5>
                     </div>
-                    <h5>Image</h5>
-                  </div>
+                  </draggable>
                   <div class="element-card">
                     <div class="icon">
                       <i class="fas fa-images"></i>
@@ -597,8 +605,20 @@
 </template>
 
 <script>
+import draggable from "vuedraggable";
 export default {
+  components: {
+    draggable
+  },
   methods: {
+    onHeadingDragEnd(args) {
+      console.log(args);
+    },
+    onHeadingDragStart() {
+      // Close the menu automatically on dragging
+      document.querySelector("#page-creator").classList.remove("--menu-active");
+      document.querySelector(".hl_page-creator--element-group").classList.remove("active");
+    },
     addHeading() {
       this.$root.$emit("addHeading");
     },

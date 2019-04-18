@@ -485,8 +485,6 @@
 <script>
 import Section from "./Components/Section.vue";
 import Row from "./Components/Row.vue";
-import Heading from "./Components/Heading.vue";
-import Image from "./Components/Image.vue";
 
 export default {
   components: {
@@ -498,22 +496,12 @@ export default {
     };
   },
   mounted() {
-    this.$root.$on("addHeading", () => {
-      this.addHeading();
-    });
-    this.$root.$on("addImage", () => {
-      this.addImage();
-    });
+    this.$root.$on("addRow", this.addRow);
   },
+
   methods: {
     addRow() {
-      this.elements.push({ name: "Row", component: Row });
-    },
-    addHeading() {
-      this.elements.push({ name: "Heading", component: Heading });
-    },
-    addImage() {
-      this.elements.push({ name: "Image", component: Image });
+      this.elements.push({ name: "Row2", component: Row });
     }
   }
 };

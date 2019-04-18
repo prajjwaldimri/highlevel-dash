@@ -2215,7 +2215,7 @@ copy-webpack-plugin@^4.6.0:
     p-limit "^1.0.0"
     serialize-javascript "^1.4.0"
 
-core-js@^2.6.5:
+core-js@^2.5.3, core-js@^2.6.5:
   version "2.6.5"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.5.tgz#44bc8d249e7fb2ff5d00e0341a7ffb94fbf67895"
   integrity sha512-klh/kDpwX8hryYL14M9w/xei6vrv6sE8gTHDG7/T/+SEovB/G4ejwcfE/CBzO6Edsu+OETZMZ3wcX/EjUkrl5A==
@@ -7044,6 +7044,11 @@ sort-keys@^2.0.0:
   dependencies:
     is-plain-obj "^1.0.0"
 
+sortablejs@^1.8.4:
+  version "1.8.4"
+  resolved "https://registry.yarnpkg.com/sortablejs/-/sortablejs-1.8.4.tgz#1bbfeafa96d399b83f28e25d8e49d4fbfd867f30"
+  integrity sha512-Brqnzelu1AhFuc0Fn3N/qFex1tlIiuQIUsfu2J8luJ4cRgXYkWrByxa+y5mWEBlj8A0YoABukflIJwvHyrwJ6Q==
+
 source-list-map@^2.0.0:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/source-list-map/-/source-list-map-2.0.1.tgz#3993bd873bfc48479cca9ea3a547835c7c154b34"
@@ -7865,6 +7870,13 @@ vue-cli-plugin-gh-pages@^0.4.0:
     is-git-url "^1.0.0"
     lodash.isfunction "^3.0.0"
 
+vue-drag-drop@^1.1.4:
+  version "1.1.4"
+  resolved "https://registry.yarnpkg.com/vue-drag-drop/-/vue-drag-drop-1.1.4.tgz#6e94aeb10304b91d651614b7307d0b90f0227e89"
+  integrity sha512-zrpvKcD5LPVbht7cJ7ZBY0poS8GDLibRck18Zx0polkoSSpTPNMAv/m/b98xtZ3I1jdWGyiPybfPgKFFkygjhQ==
+  dependencies:
+    core-js "^2.5.3"
+
 vue-eslint-parser@^2.0.3:
   version "2.0.3"
   resolved "https://registry.yarnpkg.com/vue-eslint-parser/-/vue-eslint-parser-2.0.3.tgz#c268c96c6d94cfe3d938a5f7593959b0ca3360d1"
@@ -7930,6 +7942,13 @@ vue@^2.6.10:
   version "2.6.10"
   resolved "https://registry.yarnpkg.com/vue/-/vue-2.6.10.tgz#a72b1a42a4d82a721ea438d1b6bf55e66195c637"
   integrity sha512-ImThpeNU9HbdZL3utgMCq0oiMzAkt1mcgy3/E6zWC/G6AaQoeuFdsl9nDhTDU3X1R6FK7nsIUuRACVcjI+A2GQ==
+
+vuedraggable@^2.20.0:
+  version "2.20.0"
+  resolved "https://registry.yarnpkg.com/vuedraggable/-/vuedraggable-2.20.0.tgz#82eac1f9a32c116ef4cf5215fe18dfb152afa9dd"
+  integrity sha512-mrSWGkzY40nkgLDuuoxrs6/0u+A7VwXtQRruLQYOVjwd8HcT3BZatRvzw4qVCwJczsAYPbaMubkGOEtzDOzhsQ==
+  dependencies:
+    sortablejs "^1.8.4"
 
 vuex@^3.0.1:
   version "3.1.0"
