@@ -204,7 +204,7 @@
     </div>
 
     <div class="hl_page-creator--content">
-      <Section :elements="elements" @addRow="addRow"></Section>
+      <Section></Section>
 
       <section
         class="hl_page-creator--section"
@@ -484,25 +484,10 @@
 
 <script>
 import Section from "./Components/Section.vue";
-import Row from "./Components/Row.vue";
 
 export default {
   components: {
     Section
-  },
-  data: function() {
-    return {
-      elements: [{ name: "Row", component: Row }]
-    };
-  },
-  mounted() {
-    this.$root.$on("addRow", this.addRow);
-  },
-
-  methods: {
-    addRow() {
-      this.elements.push({ name: "Row2", component: Row });
-    }
   }
 };
 </script>

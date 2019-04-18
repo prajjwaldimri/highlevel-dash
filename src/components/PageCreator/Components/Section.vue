@@ -25,12 +25,35 @@
       </div>
     </div>
 
-    <component v-for="element in elements" :is="element.component" :key="element"></component>
+    <Row v-for="(row, index) in rows" :key="index" :name="row.name"></Row>
+
+    <!-- <component v-for="element in elements" :is="element.component" :key="element.order"></component> -->
   </section>
 </template>
 
 <script>
+import Row from "./Row.vue";
 export default {
-  props: ["elements"]
+  components: {
+    Row
+  },
+  data: function() {
+    return {
+      rowCounter: 0,
+      rows: [{ name: "Row 0" }]
+    };
+  },
+  mounted() {
+    this.$root.$on("addRow", this.addRow);
+  },
+
+  methods: {
+    addRow(rowCount) {
+      this.rowCounter += 1;
+      this.rows.splice(rowCount + 1, 0, {
+        name: `Row ${this.rowCounter}`
+      });
+    }
+  }
 };
 </script>

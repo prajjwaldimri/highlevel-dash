@@ -1,6 +1,6 @@
 <template>
   <drop class="hl_page-creator--row" @drop="handleDrop">
-    <div class="hl_page-creator--actions" v-if="elements.length > 0">
+    <div class="hl_page-creator--actions" v-if="elementsData.length > 0">
       <div class="move-actions">
         <span data-tooltip="tooltip" data-placement="top" title="Up"
           ><i class="icon icon-arrow-up-2"></i
@@ -35,7 +35,7 @@
       @click="addRow"
       ><i class="icon icon-plus"></i
     ></span>
-    <component v-for="element in elements" :is="element.component" :key="element"></component>
+    <component v-for="element in elementsData" :is="element.component" :key="element"></component>
   </drop>
 </template>
 
@@ -46,19 +46,19 @@ import Image from "./Image.vue";
 export default {
   data() {
     return {
-      elements: []
+      elementsData: []
     };
   },
 
   methods: {
     addRow() {
-      this.$parent.$emit("addRow");
+      this.$root.$emit("addRow", this.$vnode.key);
     },
     addHeading() {
-      this.elements.push({ name: "Heading", component: Heading });
+      this.elementsData.push({ name: "Heading", component: Heading });
     },
     addImage() {
-      this.elements.push({ name: "Image", component: Image });
+      this.elementsData.push({ name: "Image", component: Image });
     },
     handleDrop(data) {
       if (data === "Headline") {
