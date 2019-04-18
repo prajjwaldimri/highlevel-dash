@@ -1,6 +1,6 @@
 <template>
-  <div class="hl_page-creator--row">
-    <div class="hl_page-creator--actions" v-if="elements != null">
+  <drop class="hl_page-creator--row" @drop="handleDrop">
+    <div class="hl_page-creator--actions" v-if="elements.length > 0">
       <div class="move-actions">
         <span data-tooltip="tooltip" data-placement="top" title="Up"
           ><i class="icon icon-arrow-up-2"></i
@@ -27,11 +27,16 @@
     <div href="#" class="new-row-blank" v-else>
       <span class="btn btn-light5 btn-slim" @click="addRow">Add New Row</span>
     </div>
-    <span class="add-new-row" data-tooltip="tooltip" data-placement="bottom" title="Add New Row"
+    <span
+      class="add-new-row"
+      data-tooltip="tooltip"
+      data-placement="bottom"
+      title="Add New Row"
+      @click="addRow"
       ><i class="icon icon-plus"></i
     ></span>
     <component v-for="element in elements" :is="element.component" :key="element"></component>
-  </div>
+  </drop>
 </template>
 
 <script>
@@ -44,14 +49,7 @@ export default {
       elements: []
     };
   },
-  mounted() {
-    this.$root.$on("addHeading", () => {
-      this.addHeading();
-    });
-    this.$root.$on("addImage", () => {
-      this.addImage();
-    });
-  },
+
   methods: {
     addRow() {
       this.$parent.$emit("addRow");
@@ -61,6 +59,13 @@ export default {
     },
     addImage() {
       this.elements.push({ name: "Image", component: Image });
+    },
+    handleDrop(data) {
+      if (data === "Headline") {
+        this.addHeading();
+      } else if (data === "Image") {
+        this.addImage();
+      }
     }
   }
 };
