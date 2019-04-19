@@ -63,6 +63,7 @@ export default {
         component: Heading
       });
     },
+
     addImage() {
       this.$root.$emit("addImage", this.$vnode.key, {
         name: "Image",

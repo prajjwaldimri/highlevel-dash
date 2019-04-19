@@ -39,6 +39,8 @@
 <script>
 import Row from "./Row.vue";
 import RowBlank from "./RowBlank.vue";
+import Heading from "./Heading.vue";
+import Image from "./Image.vue";
 
 export default {
   components: {
@@ -55,6 +57,8 @@ export default {
     this.$root.$on("addRow", this.addRow);
     this.$root.$on("addHeading", this.addChildToRow);
     this.$root.$on("addImage", this.addChildToRow);
+    this.$root.$on("replaceChildWithHeadline", this.replaceChildWithHeadline);
+    this.$root.$on("replaceChildWithImage", this.replaceChildWithImage);
   },
 
   methods: {
@@ -174,6 +178,28 @@ export default {
       this.rows.splice(rowCount, 1, {
         name: `Row ${this.rows[rowCount].name}`,
         children: [...this.rows[rowCount].children, element]
+      });
+    },
+    replaceChildWithHeadline(rowKey, childKey) {
+      let children = this.rows[rowKey].children;
+      children.splice(childKey, 1, {
+        name: "Heading",
+        component: Heading
+      });
+      this.rows.splice(rowKey, 1, {
+        name: `Row ${this.rows[rowKey].name}`,
+        children: children
+      });
+    },
+    replaceChildWithImage(rowKey, childKey) {
+      let children = this.rows[rowKey].children;
+      children.splice(childKey, 1, {
+        name: "Image",
+        component: Image
+      });
+      this.rows.splice(rowKey, 1, {
+        name: `Row ${this.rows[rowKey].name}`,
+        children: children
       });
     }
   }

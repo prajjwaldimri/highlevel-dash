@@ -46,6 +46,7 @@
                     transfer-data="Headline"
                     class="element-card"
                     @dragstart="onHeadingDragStart"
+                    id="headline-card"
                   >
                     <div>
                       <div class="icon">
@@ -77,7 +78,12 @@
               <div class="element-group">
                 <h4>Media</h4>
                 <div class="element-cards">
-                  <drag class="element-card" transfer-data="Image" @dragstart="onHeadingDragStart">
+                  <drag
+                    class="element-card"
+                    transfer-data="Image"
+                    @dragstart="onHeadingDragStart"
+                    id="image-card"
+                  >
                     <div>
                       <div class="icon">
                         <i class="fas fa-image"></i>
