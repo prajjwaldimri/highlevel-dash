@@ -25,7 +25,12 @@
       </div>
     </div>
 
-    <Row v-for="(row, index) in rows" :key="index" :name="row.name"></Row>
+    <Row
+      v-for="(row, index) in rows"
+      :key="index"
+      :name="row.name"
+      :elementsData="row.children"
+    ></Row>
 
     <!-- <component v-for="element in elements" :is="element.component" :key="element.order"></component> -->
   </section>
@@ -40,18 +45,28 @@ export default {
   data: function() {
     return {
       rowCounter: 0,
-      rows: [{ name: "Row 0" }]
+      rows: [{ name: "Row 0", children: [] }],
+      emptyArray: []
     };
   },
   mounted() {
     this.$root.$on("addRow", this.addRow);
+    this.$root.$on("addHeading", this.addChildToRow);
+    this.$root.$on("addImage", this.addChildToRow);
   },
 
   methods: {
     addRow(rowCount) {
       this.rowCounter += 1;
       this.rows.splice(rowCount + 1, 0, {
-        name: `Row ${this.rowCounter}`
+        name: `Row ${this.rowCounter}`,
+        children: []
+      });
+    },
+    addChildToRow(rowCount, element) {
+      this.rows.splice(rowCount, 1, {
+        name: `Row ${this.rows[rowCount].name}`,
+        children: [...this.rows[rowCount].children, element]
       });
     }
   }

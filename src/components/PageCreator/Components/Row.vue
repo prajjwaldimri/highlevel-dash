@@ -35,7 +35,11 @@
       @click="addRow"
       ><i class="icon icon-plus"></i
     ></span>
-    <component v-for="element in elementsData" :is="element.component" :key="element"></component>
+    <component
+      v-for="(element, index) in elementsData"
+      :is="element.component"
+      :key="index"
+    ></component>
   </drop>
 </template>
 
@@ -44,10 +48,8 @@ import Heading from "./Heading.vue";
 import Image from "./Image.vue";
 
 export default {
-  data() {
-    return {
-      elementsData: []
-    };
+  props: {
+    elementsData: Array
   },
 
   methods: {
@@ -55,10 +57,18 @@ export default {
       this.$root.$emit("addRow", this.$vnode.key);
     },
     addHeading() {
-      this.elementsData.push({ name: "Heading", component: Heading });
+      // this.elementsData.push({ name: "Heading", component: Heading });
+      this.$root.$emit("addHeading", this.$vnode.key, {
+        name: "Heading",
+        component: Heading
+      });
     },
     addImage() {
-      this.elementsData.push({ name: "Image", component: Image });
+      this.$root.$emit("addImage", this.$vnode.key, {
+        name: "Image",
+        component: Image
+      });
+      // this.elementsData.push({ name: "Image", component: Image });
     },
     handleDrop(data) {
       if (data === "Headline") {
