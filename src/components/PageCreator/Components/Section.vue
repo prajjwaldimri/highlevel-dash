@@ -2,38 +2,26 @@
   <section class="hl_page-creator--section">
     <div class="hl_page-creator--actions">
       <div class="move-actions">
-        <span
-          data-tooltip="tooltip"
-          data-placement="right"
-          title="Up"
-        ><i class="icon icon-arrow-up-2"></i></span>
-        <span
-          data-tooltip="tooltip"
-          data-placement="right"
-          title="Down"
-        ><i class="icon icon-arrow-down-2"></i></span>
+        <span data-tooltip="tooltip" data-placement="right" title="Up"
+          ><i class="icon icon-arrow-up-2"></i
+        ></span>
+        <span data-tooltip="tooltip" data-placement="right" title="Down"
+          ><i class="icon icon-arrow-down-2"></i
+        ></span>
       </div>
       <div class="more-actions">
-        <span
-          data-tooltip="tooltip"
-          data-placement="left"
-          title="Settings"
-        ><i class="fas fa-cog"></i></span>
-        <span
-          data-tooltip="tooltip"
-          data-placement="left"
-          title="Clone"
-        ><i class="far fa-eye"></i></span>
-        <span
-          data-tooltip="tooltip"
-          data-placement="left"
-          title="Save"
-        ><i class="far fa-copy"></i></span>
-        <span
-          data-tooltip="tooltip"
-          data-placement="left"
-          title="Delete"
-        ><i class="far fa-trash-alt"></i></span>
+        <span data-tooltip="tooltip" data-placement="left" title="Settings"
+          ><i class="fas fa-cog"></i
+        ></span>
+        <span data-tooltip="tooltip" data-placement="left" title="Clone"
+          ><i class="far fa-eye"></i
+        ></span>
+        <span data-tooltip="tooltip" data-placement="left" title="Save"
+          ><i class="far fa-copy"></i
+        ></span>
+        <span data-tooltip="tooltip" data-placement="left" title="Delete"
+          ><i class="far fa-trash-alt"></i
+        ></span>
       </div>
     </div>
 
@@ -50,7 +38,7 @@
 
 <script>
 import Row from "./Row.vue";
-import Heading from "./Heading.vue";
+import RowBlank from "./RowBlank.vue";
 
 export default {
   components: {
@@ -72,17 +60,13 @@ export default {
   methods: {
     showRowMenu() {
       document.querySelector("#page-creator").classList.add("--menu-active");
-      document
-        .querySelector(".hl_page-creator--rows-group")
-        .classList.add("active");
+      document.querySelector(".hl_page-creator--rows-group").classList.add("active");
       document.querySelector("#add-row").classList.add("active");
       document.querySelector("#add-row").classList.add("show");
     },
     hideRowMenu() {
       document.querySelector("#page-creator").classList.remove("--menu-active");
-      document
-        .querySelector(".hl_page-creator--rows-group")
-        .classList.remove("active");
+      document.querySelector(".hl_page-creator--rows-group").classList.remove("active");
       document.querySelector("#add-row").classList.remove("active");
       document.querySelector("#add-row").classList.remove("show");
     },
@@ -113,12 +97,12 @@ export default {
           name: `Row ${this.rowCounter}`,
           children: [
             {
-              name: "Heading",
-              component: Heading
+              name: "Row-Blank",
+              component: RowBlank
             },
             {
-              name: "Heading",
-              component: Heading
+              name: "Row-Blank",
+              component: RowBlank
             }
           ]
         });
@@ -140,16 +124,16 @@ export default {
           name: `Row ${this.rowCounter}`,
           children: [
             {
-              name: "Heading",
-              component: Heading
+              name: "Row-Blank",
+              component: RowBlank
             },
             {
-              name: "Heading",
-              component: Heading
+              name: "Row-Blank",
+              component: RowBlank
             },
             {
-              name: "Heading",
-              component: Heading
+              name: "Row-Blank",
+              component: RowBlank
             }
           ]
         });
@@ -166,27 +150,21 @@ export default {
         this.hideRowMenu();
       };
 
-      document
-        .querySelector("#one-column-row")
-        .addEventListener("click", addOneColumnRow, false);
+      document.querySelector("#one-column-row").addEventListener("click", addOneColumnRow, false);
 
-      document
-        .querySelector("#two-column-row")
-        .addEventListener("click", addTwoColumnRow, false);
+      document.querySelector("#two-column-row").addEventListener("click", addTwoColumnRow, false);
 
-      document
-        .querySelector("#close-element-group")
-        .addEventListener("click", () => {
-          document
-            .querySelector("#one-column-row")
-            .removeEventListener("click", addOneColumnRow, false);
-          document
-            .querySelector("#two-column-row")
-            .removeEventListener("click", addTwoColumnRow, false);
-          document
-            .querySelector("#three-column-row")
-            .removeEventListener("click", addThreeColumnRow, false);
-        });
+      document.querySelector("#close-element-group").addEventListener("click", () => {
+        document
+          .querySelector("#one-column-row")
+          .removeEventListener("click", addOneColumnRow, false);
+        document
+          .querySelector("#two-column-row")
+          .removeEventListener("click", addTwoColumnRow, false);
+        document
+          .querySelector("#three-column-row")
+          .removeEventListener("click", addThreeColumnRow, false);
+      });
 
       document
         .querySelector("#three-column-row")
