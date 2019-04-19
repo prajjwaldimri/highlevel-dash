@@ -8,19 +8,19 @@
             <h2>Add Row</h2>
             <div class="add-row-body">
               <div class="row-cards">
-                <div class="row-card" @click="addRow">
+                <div class="row-card" id="one-column-row">
                   <div class="icon">
                     <i class="fas fa-columns"></i>
                   </div>
                   <h5>1 Column</h5>
                 </div>
-                <div class="row-card">
+                <div class="row-card" id="two-column-row">
                   <div class="icon">
                     <i class="fas fa-columns"></i>
                   </div>
                   <h5>2 Column</h5>
                 </div>
-                <div class="row-card">
+                <div class="row-card" id="three-column-row">
                   <div class="icon">
                     <i class="fas fa-columns"></i>
                   </div>
